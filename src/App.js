@@ -5,6 +5,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import Home from "./Home";
+import Work from "./Work";
 import * as Icon from 'react-feather';
 
 class App extends Component {
@@ -20,7 +21,7 @@ class App extends Component {
 
                 <ul className="menu">
                 <li><NavLink exact to="/">Home</NavLink></li>
-                <li><NavLink to="/">Work</NavLink></li>
+                <li><NavLink to="/work">Work</NavLink></li>
                 <li><NavLink to="/">About</NavLink></li>
                 <li><NavLink to="/">Services</NavLink></li>
                 <li><NavLink to="/">Contact</NavLink></li>
@@ -28,6 +29,7 @@ class App extends Component {
             </div>
             <div className="content">
               <Route exact path="/" component={Home}/>
+              <Route exact path="/work" component={Work}/>
             </div>
             <div className="footer">
               <div className="socialmedia">
