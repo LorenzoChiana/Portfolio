@@ -2,22 +2,35 @@ body {
   background-color: #fff;
   margin: 0;
 }
+
 body, h1, h2, h3, h4, h5, a, span, p, div, ul, li {
   font-family: 'Roboto', sans-serif;
   font-weight:300;
 }
+
 .header {
-    border-bottom:2px solid #000;
+  background:transparent;
 }
+
+canvas {
+  position:fixed;
+  z-index:-99;
+  height: 100vh;
+  background-image: linear-gradient(to right, #00D7FF, #313896, #9F32B3);
+}
+
 .topheader {
-    text-align:center;
-    padding:5em;
+  text-align:center;
+  padding:5em;
+  color:white;
 }
+
 ul.menu li {
   display: inline;
   list-style-type: none;
   margin: 0;
 }
+
 ul.menu {
   background-color: transparent;
   padding: 0;
@@ -25,47 +38,71 @@ ul.menu {
   margin: 0;
   margin-bottom:-2px;
 }
+
 ul.menu li a {
-  color: #000;
+  color: #FFF;
   text-decoration: none;
   padding: 1em;
   display: inline-block;
 }
+
 .content {
   background-color: #fff;
+  padding: 5em;
 }
+
 .content h2 {
   padding: 0;
   margin: 0;
 }
+
 .active {
   border-bottom: 2px solid transparent;
-  -webkit-border-image: -webkit-linear-gradient(top left, #00D7FF, #313896, #9F32B2);
-  border-image: linear-gradient(to right, #00D7FF, #313896, #9F32B3);
-  border-image-slice: 2;
-  background: linear-gradient(to right, #00D7FF, #313896, #9F32B3);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #BBB !important;
 }
+
 .footer {
-    text-align: center;
-    font-size:.8em;
-    padding: 3em;
-    border-top:2px solid #000;
+  text-align: center;
+  font-size:.8em;
+  padding: 3em;
+  color:white;
 }
+
 .footer a {
-    color: #000;
+  color: #FFF;
 }
+
 .footer a svg:hover{
-  stroke: #00D7FF;
+  stroke: #BBB;
 }
+
 .footer .socialmedia svg {
-    width: 20px;
-    height:20px;
-    stroke-width:1.5;
-    padding:0 .5em;
-    transition: 200ms;
-    transition-timing-function: ease-in-out;
-    -webkit-transition: 200ms;
-    -webkit-transition-timing-function: ease-in-out;
+  width: 20px;
+  height:20px;
+  stroke-width:1.5;
+  padding:0 .5em;
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+  stroke:#FFF;
+}
+
+.slashes {
+  padding:0 .5em;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  background-color: white ;
+  color: black;
+  border:1px solid black;
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  line-height: 400px;
 }

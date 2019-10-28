@@ -9,12 +9,37 @@ import About from "./About";
 import Work from "./Work";
 import Contact from "./Contact";
 import * as Icon from 'react-feather';
+import Particles from 'react-particles-js';
 
 class App extends Component {
     render() {
       return (
         <HashRouter>
           <div>
+          <Particles
+            height = '100'
+            style = {{
+              width: '100%',
+              height: '100%',
+            }}
+            params={{
+	            "particles": {
+	              "number": {
+	                "value": 50
+	              },
+	              "size": {
+	                "value": 3
+	              }
+	            },
+	          "interactivity": {
+	            "events": {
+	              "onhover": {
+	                "enable": true,
+	                "mode": "repulse"
+	              }
+	             }
+	            }
+	        } } />
             <div className="header">
                 <div className="topheader">
                 <h1>Lorenzo Chiana</h1>
@@ -46,7 +71,7 @@ class App extends Component {
                   <Icon.User />
                 </a>
               </div>
-            <p>Footer</p>
+            <p></p>
           </div>
           </div>
         </HashRouter>
