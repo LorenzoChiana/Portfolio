@@ -29,7 +29,7 @@ class About extends Component {
                     <Icon.GitHub />
                 </a>
                 <a href="https://www.linkedin.com/in/lorenzo-chiana-a12210140/" target="blank">
-                    <Icon.User />
+                    <Icon.Linkedin />
                 </a>
                 <a href={PDF} target="blank">
                   <Icon.Download />
@@ -50,8 +50,9 @@ class About extends Component {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Stage in BitLine sas</h3>
-                        <p>1 mese blablablablabla</p>
+                        <h3 className="timeline-title">Internship in BitLine sas</h3>
+                        <p>Main activities and responsibilities: Computer assembly and repair, data entry and management of the company website.</p>
+                        <p>Skills and objectives achieved: Learned business dynamics. Expanded knowledge on computer hardware components.</p>
                         <img width="100px" src={bitline} />
                     </div>
                 </li>
@@ -61,8 +62,20 @@ class About extends Component {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Summer stage in BE Infrastrutture S.R.L.</h3>
-                        <p>2 mesi cosa ho fatto</p>
+                        <h3 className="timeline-title">Summer internship in BE Infrastrutture S.R.L.</h3>
+                        <p>
+                            Main activities and responsibilities:
+                            IT assistance both on site and remotely for the staff of the various CMC Ravenna offices.
+                            RDA and ORD data management.
+                            Created at the request of the company a Java program for monitoring of servers hard disks capacity.
+                            Management of the corporate network alongside the company tutor.
+                        </p>
+                        <p>
+                            Skills and objectives achieved:
+                            Basic networking knowledge.
+                            Management and resolution of IT issues.
+                            Design and development software.
+                        </p>
                         <img width="100px" src={beinfrastrutture} />
                     </div>
                 </li>
@@ -73,7 +86,7 @@ class About extends Component {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <h3 className="timeline-title">High school diploma</h3>
-                        <p>ITIS Nullo baldini</p>
+                        <p>Graduated in computer science from the technical industrial institute Nullo Baldini (ITIS N. Baldini)</p>
                     </div>
                 </li>
                 <li className="timeline-item">
@@ -83,7 +96,14 @@ class About extends Component {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <h3 className="timeline-title">Internship in Cosmobile</h3>
-                        <p>cosa ho fatto e cos'è</p>
+                        <p>
+                            Main activities and responsibilities: Design and implementation of web-based software on LAMP stacks based on a corporate framework derived from Zend Framework within the development team.
+                        </p>
+                        <p>
+                            Skills and objectives achieved:
+                            Learning to analyze and design a software, applying the main design patterns.
+                            Learn to structure test plans.
+                        </p>
                         <img width="100px" src={cosmobile} />
                     </div>
                 </li>
@@ -104,9 +124,9 @@ class About extends Component {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                    <h3 className="timeline-title">Student at UNIBO</h3>
-                        <p>Studente presso il corso di LM blabla</p>
-                      <a href="mailto:lorenzo.chiana@gmail.com">Contact me</a>
+                        <h3 className="timeline-title">Student at UNIBO</h3>
+                        <p>Currently I'm studing computer science at master's degree course in UNIBO</p>
+                        <a href="mailto:lorenzo.chiana@gmail.com">Contact me</a>
                     </div>
                 </li>
             </ul>

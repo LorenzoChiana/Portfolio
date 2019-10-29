@@ -43,7 +43,7 @@ class App extends Component {
             <div className="header">
                 <div className="topheader">
                 <h1>Lorenzo Chiana</h1>
-                <p>Ipse dixit etc</p>
+                <p>Junior Computer Engineer and Scientist</p>
                 </div>
 
                 <ul className="menu">
@@ -66,7 +66,7 @@ class App extends Component {
                   <Icon.GitHub />
                 </a>
                 <a href="https://www.linkedin.com/in/lorenzo-chiana-a12210140/" target="blank">
-                  <Icon.User />
+                  <Icon.Linkedin />
                 </a>
                 <a href={PDF} target="blank">
                   <Icon.Download />
