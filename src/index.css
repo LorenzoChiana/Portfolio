@@ -21,7 +21,7 @@ canvas {
 
 .topheader {
   text-align: center;
-  padding: 5em;
+  padding: 7em 5em 5em 5em;
   color: white;
 }
 
@@ -109,8 +109,30 @@ ul.menu li a {
   line-height: 400px;
 }
 
-@media (max-width:600px) {
+.container-item p {
+  line-height: 1.6;
+}
+
+.top-btn {
+  text-decoration: none;
+  margin-bottom: 2em;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+@media (max-width:768px) {
   .content {
     padding: 0;
+  }
+  .topheader .slashes {
+    display: none;
+  }
+  .row2 {
+    display: none;
+  }
+  .topheader {
+    padding: 2em 2em 4em 2em;
   }
 }

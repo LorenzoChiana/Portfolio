@@ -46,11 +46,11 @@
 }
 
 .home .container.work-section .container-item.one {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98b1cd2ea86a7b4796275ef13aadafbf&auto=format&fit=crop&w=1352&q=80.jpg");
+    background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./img/work.jpg");
 }
 
 .home .container.work-section .container-item.two {
-    background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("https://images.unsplash.com/photo-1517733340021-9762be68f73a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=af0cf183137831366bb1051c6bdc564f&auto=format&fit=crop&w=1350&q=80.jpg");
+    background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./img/about.jpg");
 }
 
 .home a {
@@ -104,23 +104,60 @@
     line-height: 1.6;
 }
 
-@media (max-width:600px) {
+.contact-wrap.container {
+    margin: 5em;
+}
+
+.contact-wrap .container-item {
+    padding: 8em 0 5em 0;
+    background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./img/mail.jpg");
+}
+
+.contact-wrap .container-item {
+    width: 100%;
+}
+
+.home .container.contact-wrap .container-item {
+    width: 100%;
+    margin: 0;
+    color: black;
+    padding: 8em 0 5em 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.contact-wrap a {
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .content h2 {
+        text-align: center;
+        padding: 2em !important;
+    }
+    .contact-wrap.container {
+        margin: 0;
+        padding: 1em;
+    }
     .home .work-section a {
         width: 100%;
     }
     .home .container.work-section {
         margin: 5em 1em;
     }
-    .home .container.work-section .container-item {
-        padding: 3em 0 0 0;
+    .home .container.work-section .container-item, .contact-wrap .container-item {
+        padding: 3em 0 0 0 !important;
     }
-    .home p.quote {
-        font-size: 1.3em;
-    }
-    .testimonials {
-        padding-bottom: 3em;
+    .contact-wrap h2 {
+        width: 70%;
+        text-align: center;
+        margin: 0 auto !important;
     }
     .home .container {
         padding-top: 2em;
+    }
+    .contact-wrap {
+        margin-bottom: 3em;
     }
 }

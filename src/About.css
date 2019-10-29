@@ -64,13 +64,13 @@
 }
 
 .about a {
-  color: #00D7FF;
   color: #000000;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .about a:hover {
-  font-weight: bold;
+  color: #434343;
 }
 
 .example-header {
@@ -307,7 +307,7 @@
   background: #00D7FF;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .flex-grid-thirds {
     display: flex;
     align-items: center;
