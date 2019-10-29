@@ -65,7 +65,7 @@
     display: block;
     margin: 2em auto;
     padding: .2em;
-    background-image: linear-gradient(to right, #00D7FF, #313896, #9F32B3);
+    background-image: linear-gradient(to right, #434343, #000000);
 }
 
 .home .testimonials h2 {
