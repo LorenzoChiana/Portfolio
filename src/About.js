@@ -33,76 +33,76 @@ class About extends Component {
             </div>
         </div>
       </div>
-      <div class="row example-centered">
-        <div class="col-md-12 example-title">
+      <div className="row example-centered">
+        <div className="col-md-12 example-title">
             <h2>Timeline</h2>
         </div>
-        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-            <ul class="timeline timeline-centered">
+        <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+            <ul className="timeline timeline-centered">
             
-                <li class="timeline-item">
-                    <div class="timeline-info">
+                <li className="timeline-item">
+                    <div className="timeline-info">
                         <span>Apr 2013</span>
                     </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Stage in BitLine sas</h3>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">Stage in BitLine sas</h3>
                         <p>1 mese blablablablabla</p>
                         <img width="100px" src={bitline} />
                     </div>
                 </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
+                <li className="timeline-item">
+                    <div className="timeline-info">
                         <span>Jul - Aug 2013</span>
                     </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Summer stage in BE Infrastrutture S.R.L.</h3>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">Summer stage in BE Infrastrutture S.R.L.</h3>
                         <p>2 mesi cosa ho fatto</p>
                         <img width="100px" src={beinfrastrutture} />
                     </div>
                 </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
+                <li className="timeline-item">
+                    <div className="timeline-info">
                         <span>Jul 2014</span>
                     </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">High school diploma</h3>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">High school diploma</h3>
                         <p>ITIS Nullo baldini</p>
                     </div>
                 </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
+                <li className="timeline-item">
+                    <div className="timeline-info">
                         <span>Nov - Dec 2017</span>
                     </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Internship in Cosmobile</h3>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">Internship in Cosmobile</h3>
                         <p>cosa ho fatto e cos'è</p>
                         <img width="100px" src={cosmobile} />
                     </div>
                 </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
+                <li className="timeline-item">
+                    <div className="timeline-info">
                         <span>March 2017</span>
                     </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">Bachelor's Degree</h3>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                        <h3 className="timeline-title">Bachelor's Degree</h3>
                         <p>I graduated in 2017 in Engeneering and Computer Science from Bologna University in Cesena, Italy.</p>
                         <img width="150px" src={unibo} />
                     </div>
                 </li>
-                <li class="timeline-item">
-                    <div class="timeline-info">
+                <li className="timeline-item">
+                    <div className="timeline-info">
                         <span>Current</span>
                     </div>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                    <h3 class="timeline-title">Student at UNIBO</h3>
+                    <div className="timeline-marker"></div>
+                    <div className="timeline-content">
+                    <h3 className="timeline-title">Student at UNIBO</h3>
                         <p>Studente presso il corso di LM blabla</p>
-                      <a href="mailto:lorenzo.chiana@gmail.com">Send me and email</a>
+                      <a href="mailto:lorenzo.chiana@gmail.com">Contact me</a>
                     </div>
                 </li>
             </ul>

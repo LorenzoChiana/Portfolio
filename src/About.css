@@ -17,7 +17,13 @@
   border-radius: 50%;
   padding: .5em;
   background-image: linear-gradient(to right, #00D7FF, #313896, #9F32B3);
+  transition: background-image 1s ease 5s;
   width: 50%;
+}
+
+.about .sj-headshot:hover {
+  background-image: linear-gradient(to bottom right, #00D7FF, #313896, #9F32B3);
+  transition: background-image 1s ease 5s;
 }
 
 .about .btn {
