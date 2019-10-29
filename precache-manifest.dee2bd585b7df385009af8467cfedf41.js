@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7befd6d3110e4d6b220c8d87a5eb0b82",
+    "revision": "d0c3b20cb75f26175fb9a804e7bd99f0",
     "url": "/index.html"
   },
   {
-    "revision": "cc8eea3bec0bf61b9130",
+    "revision": "9c1c20ec78e2d5dd0963",
     "url": "/static/css/2.8271af8e.chunk.css"
   },
   {
-    "revision": "3c90da30e5529ddff84b",
-    "url": "/static/css/main.3323d71c.chunk.css"
+    "revision": "47a846968ae60baabebe",
+    "url": "/static/css/main.9da763ae.chunk.css"
   },
   {
-    "revision": "cc8eea3bec0bf61b9130",
-    "url": "/static/js/2.0dbd7e32.chunk.js"
+    "revision": "9c1c20ec78e2d5dd0963",
+    "url": "/static/js/2.8d03b410.chunk.js"
   },
   {
-    "revision": "3c90da30e5529ddff84b",
-    "url": "/static/js/main.3099ba2d.chunk.js"
+    "revision": "47a846968ae60baabebe",
+    "url": "/static/js/main.5ccb42b4.chunk.js"
   },
   {
     "revision": "05129d9571d833ef1980",
@@ -32,8 +32,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/UniBo-Universita-di-Bologna.23f858f1.png"
   },
   {
-    "revision": "b69004add1c6c2f651a87aa2dfc663d5",
-    "url": "/static/media/me.b69004ad.jpg"
+    "revision": "7e1fb89d416d24b9084d3d8c0cb90846",
+    "url": "/static/media/about.7e1fb89d.jpg"
+  },
+  {
+    "revision": "3e771146c9d8a7f2db7d5876fe2492fe",
+    "url": "/static/media/mail.3e771146.jpg"
+  },
+  {
+    "revision": "82c7bf70e808c5dc60cacab8a6c618b0",
+    "url": "/static/media/me.82c7bf70.jpg"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
@@ -130,5 +138,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ebf6d1640ccddb99fb49f73c052c55a8",
     "url": "/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  {
+    "revision": "1257def88ca43446fef93ac1efb044c4",
+    "url": "/static/media/work.1257def8.jpg"
   }
 ]);
