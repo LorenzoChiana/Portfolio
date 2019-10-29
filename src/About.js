@@ -6,6 +6,7 @@ import bitline from './img/bitline.png';
 import beinfrastrutture from './img/BE.png';
 import cosmobile from './img/cosmobile.png';
 import unibo from './img/UniBo-Universita-di-Bologna.png';
+import PDF from './doc/CV_ChianaLorenzo.pdf';
  
 class About extends Component {
   render() {
@@ -29,7 +30,10 @@ class About extends Component {
                 </a>
                 <a href="https://www.linkedin.com/in/lorenzo-chiana-a12210140/" target="blank">
                     <Icon.User />
-                </a> 
+                </a>
+                <a href={PDF} target="blank">
+                  <Icon.Download />
+                </a>
             </div>
         </div>
       </div>

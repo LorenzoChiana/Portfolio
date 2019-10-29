@@ -9,6 +9,7 @@ import About from "./About";
 import Work from "./Work";
 import * as Icon from 'react-feather';
 import Particles from 'react-particles-js';
+import PDF from './doc/CV_ChianaLorenzo.pdf';
 
 class App extends Component {
     render() {
@@ -66,6 +67,9 @@ class App extends Component {
                 </a>
                 <a href="https://www.linkedin.com/in/lorenzo-chiana-a12210140/" target="blank">
                   <Icon.User />
+                </a>
+                <a href={PDF} target="blank">
+                  <Icon.Download />
                 </a>
               </div>
             <p></p>
