@@ -7,6 +7,7 @@ import beinfrastrutture from './img/BE.png';
 import cosmobile from './img/cosmobile.png';
 import unibo from './img/UniBo-Universita-di-Bologna.png';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
+import { IoIosPaper } from "react-icons/io";
  
 class About extends Component {
   render() {
@@ -19,7 +20,7 @@ class About extends Component {
         </div>
         <div className="col-2">
         <p className="desc">
-        My name is Lorenzo, tante cose qua da dire su di me.
+            My name is Lorenzo, tante cose qua da dire su di me.
         </p>
             <div className="socialmedia">
                 <a href="mailto:lorenzo.chiana@gmail.com">
@@ -32,7 +33,7 @@ class About extends Component {
                     <Icon.Linkedin />
                 </a>
                 <a href={PDF} target="blank">
-                  <Icon.Download />
+                  <IoIosPaper />
                 </a>
             </div>
         </div>

@@ -10,6 +10,7 @@ import Work from "./Work";
 import * as Icon from 'react-feather';
 import Particles from 'react-particles-js';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
+import { IoIosPaper } from "react-icons/io";
 
 class App extends Component {
     render() {
@@ -69,7 +70,7 @@ class App extends Component {
                   <Icon.Linkedin />
                 </a>
                 <a href={PDF} target="blank">
-                  <Icon.Download />
+                  <IoIosPaper />
                 </a>
               </div>
             <p></p>
