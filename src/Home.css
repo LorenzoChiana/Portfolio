@@ -103,3 +103,24 @@
 .home .quote {
     line-height: 1.6;
 }
+
+@media (max-width:600px) {
+    .home .work-section a {
+        width: 100%;
+    }
+    .home .container.work-section {
+        margin: 5em 1em;
+    }
+    .home .container.work-section .container-item {
+        padding: 3em 0 0 0;
+    }
+    .home p.quote {
+        font-size: 1.3em;
+    }
+    .testimonials {
+        padding-bottom: 3em;
+    }
+    .home .container {
+        padding-top: 2em;
+    }
+}

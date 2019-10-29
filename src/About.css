@@ -307,8 +307,19 @@
   background: #00D7FF;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .flex-grid-thirds {
-    display: block;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3em;
+  }
+  .flex-grid-thirds .col, .flex-grid-thirds .col-2 {
+    width: 90%;
+    text-align:center;
+  }
+  .row.example-centered {
+    width: 90%;
+    margin: 0 auto;
   }
 }

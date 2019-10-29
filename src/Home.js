@@ -38,7 +38,7 @@ class Home extends Component {
           </a>
           <a href="#/work">
             <div className="container-item one">
-              <h2>Check out some of my previous work</h2>
+              <h2>Check out some of my work</h2>
               <Icon.ArrowRightCircle />
             </div>
           </a>

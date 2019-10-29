@@ -108,3 +108,9 @@ ul.menu li a {
   text-align: center;
   line-height: 400px;
 }
+
+@media (max-width:600px) {
+  .content {
+    padding: 0;
+  }
+}
