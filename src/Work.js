@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Work.css";
 import portfolio from "./img/portfolio.png";
+import github from "./img/github.png";
 
  
 class Work extends Component {
@@ -10,40 +11,54 @@ class Work extends Component {
         <h2>Projects</h2>
           <div className="container">
             <a className="card" href="https://github.com/LorenzoChiana/portfolio" target="_blank">
-              <img src={portfolio} alt="project-image" />
+              <img src={github} alt="project-image" />
               <div className="txt-container">
                 <h4>
                   <b>Portfolio </b>
                   <i>( current )</i>
                   <br />
-                  Portfolio Website
+                  This Website.
                 </h4> 
-                <p>2019 <span className="slashes">//</span> React</p> 
+                <p>2019 <span className="slashes">//</span> React / CSS</p> 
               </div>
             </a> 
+        </div>
+        <h2>UNIBO projects</h2>
+            <div className="container">
 
             <a className="card" href="https://github.com/LorenzoChiana/BikeSharing" target="_blank">
-              <img src="https://u.imageresize.org/v2/487daa4a-5f87-435f-bc28-c040f1897fbe.png" alt="project-image" />
+              <img src={github} alt="project-image" />
               <div className="txt-container">
-                <h4><b>BikeSharing</b><br />Applicazioni e Servizi Web Website</h4> 
+                <h4><b>BikeSharing</b><br />Website for the management of a hypothetical bike-sharing service. Developed on a MEAN stack.</h4> 
                 <p>2017 <span className="slashes">//</span> Angular / Node / SCSS / MongoDB</p> 
               </div>
             </a>
             
             <a className="card" href="https://github.com/LorenzoChiana/Vakcino" target="_blank">
-              <img src="https://u.imageresize.org/v2/487daa4a-5f87-435f-bc28-c040f1897fbe.png" alt="project-image" />
+              <img src={github} alt="project-image" />
               <div className="txt-container">
-                <h4><b>Vakcino</b><br />Andorid App</h4> 
-                <p>2016 <span className="slashes">//</span> Android / Java / XML</p> 
+                <h4><b>Vakcino</b><br />Android application that allows the user to manage the vaccination record both for himself and for other family members.</h4> 
+                <p>2016 <span className="slashes">//</span> Android / Java / XML / SQL / MVC </p> 
               </div>
             </a>
-        </div>
 
+            <a className="card" href="https://github.com/LorenzoChiana/sol-project" target="_blank">
+              <img src={github} alt="project-image" />
+              <div className="txt-container">
+                <h4><b>SOL restyle</b><br />Recreation of the home page of SOL platform (Studenti Online) of the University of Bologna to which was added the functionality of sharing notes and slides between students and professors.</h4> 
+                <p>2015 <span className="slashes">//</span> HTML / PHP / JavaScript / CSS / SQL</p> 
+              </div>
+            </a>
 
-           
-        <h2>boh</h2>
-        <div className="container">
-        </div>
+            <a className="card" href="https://github.com/LorenzoChiana/FileMiner" target="_blank">
+              <img src={github} alt="project-image" />
+              <div className="txt-container">
+                <h4><b>FileMiner</b><br />Creation of a file manager in Java with MVC pattern for the course of OOP (Object Oriented Programming).</h4> 
+                <p>2015 <span className="slashes">//</span> Java / MVC</p> 
+              </div>
+            </a>
+            
+            </div>
 
         
       </div>

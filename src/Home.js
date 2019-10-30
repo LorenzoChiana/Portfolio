@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
 import * as Icon from 'react-feather';
-import { FaJava } from "react-icons/fa";
-import { FaDatabase } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
+import { FaJava, FaDatabase, FaCode, FaLinux } from "react-icons/fa";
 
 class Home extends Component {
   render() {
@@ -24,6 +22,11 @@ class Home extends Component {
           <div className="container-item">
             <FaCode />
             <h2>Web Development</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaLinux />
+            <h2>Linux Addicted</h2>
             <p></p>
           </div>
         </div>
