@@ -24,11 +24,6 @@ class Home extends Component {
             <h2>Web Development</h2>
             <p></p>
           </div>
-          <div className="container-item">
-            <FaLinux />
-            <h2>Linux Addicted</h2>
-            <p></p>
-          </div>
         </div>
        
         <div className="container work-section">
