@@ -20,7 +20,11 @@ class About extends Component {
         </div>
         <div className="col-2">
         <p className="desc">
-            My name is Lorenzo, tante cose qua da dire su di me.
+            My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.<br/>
+            I graduated from the bachelor of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) at the University of Bologna with a <a href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="_blank">thesis</a> on hospital 4.0.<br/>
+            During my university career I developed several projects (here my <a href="https://github.com/LorenzoChiana" target="_blank">GitHub repository</a>) ranging from web development to programming of embedded systems and IoT.<br/>
+            I am currently continuing my studies and I am attending the course of "Ingengeria e Scienze Informatiche" (Engineering and Computer Science) also at the University of Bologna, specializing in data science.
+            If you are interested in finding out more about me here my <a href={PDF} target="_blank">Curriculum Vitae</a>.
         </p>
             <div className="socialmedia">
                 <a href="mailto:lorenzo.chiana@gmail.com">
