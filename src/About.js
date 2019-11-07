@@ -22,8 +22,8 @@ class About extends Component {
         <p className="desc">
             My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.<br/>
             I graduated from the bachelor of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) at the University of Bologna with a <a href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="_blank">thesis</a> on hospital 4.0.<br/>
-            During my university career I developed several projects (here my <a href="https://github.com/LorenzoChiana" target="_blank">GitHub repository</a>) ranging from web development to programming of embedded systems and IoT.<br/>
-            I am currently continuing my studies and I am attending the course of "Ingengeria e Scienze Informatiche" (Engineering and Computer Science) also at the University of Bologna, specializing in data science.
+            During my university career, I developed several projects (here my <a href="https://github.com/LorenzoChiana" target="_blank">GitHub repository</a>) ranging from web development to programming of embedded systems and IoT.<br/>
+            I am currently continuing my studies and I am attending the course of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) also at the University of Bologna, specializing in data science.
             If you are interested in finding out more about me here my <a href={PDF} target="_blank">Curriculum Vitae</a>.
         </p>
             <div className="socialmedia">
@@ -57,7 +57,7 @@ class About extends Component {
                     <div className="timeline-content">
                         <h3 className="timeline-title">Internship in BitLine sas</h3>
                         <p>Main activities and responsibilities: Computer assembly and repair, data entry and management of the company website.</p>
-                        <p>Skills and objectives achieved: Learned business dynamics. Expanded knowledge on computer hardware components.</p>
+                        <p>Skills and objectives achieved: Learned business dynamics. Expanded knowledge of computer hardware components.</p>
                         <img width="100px" src={bitline} />
                     </div>
                 </li>
@@ -70,9 +70,9 @@ class About extends Component {
                         <h3 className="timeline-title">Summer internship in BE Infrastrutture S.R.L.</h3>
                         <p>
                             Main activities and responsibilities:
-                            IT assistance both on site and remotely for the staff of the various CMC Ravenna offices.
+                            IT assistance both on-site and remotely for the staff of the various CMC Ravenna offices.
                             RDA and ORD data management.
-                            Created at the request of the company a Java program for monitoring of servers hard disks capacity.
+                            Created at the request of the company a Java program for monitoring of servers' hard disks capacity.
                             Management of the corporate network alongside the company tutor.
                         </p>
                         <p>
@@ -100,13 +100,13 @@ class About extends Component {
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Internship in Cosmobile</h3>
+                        <h3 className="timeline-title">Internship in Cosmobile S.R.L.</h3>
                         <p>
-                            Main activities and responsibilities: Design and implementation of web-based software on LAMP stacks based on a corporate framework derived from Zend Framework within the development team.
+                            Main activities and responsibilities: Design and implementation of web-based software on LAMP stacks based on a corporate framework derived from the Zend Framework within the development team.
                         </p>
                         <p>
                             Skills and objectives achieved:
-                            Learning to analyze and design a software, applying the main design patterns.
+                            Learning to analyze and design software, applying the main design patterns.
                             Learn to structure test plans.
                         </p>
                         <img width="100px" src={cosmobile} />
@@ -119,7 +119,7 @@ class About extends Component {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <h3 className="timeline-title">Bachelor's Degree</h3>
-                        <p>I graduated in 2017 in Engeneering and Computer Science from Bologna University in Cesena, Italy.</p>
+                        <p>I graduated in 2017 in Engineering and Computer Science from Bologna University in Cesena, Italy.</p>
                         <img width="150px" src={unibo} />
                     </div>
                 </li>
@@ -130,7 +130,7 @@ class About extends Component {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <h3 className="timeline-title">Student at UNIBO</h3>
-                        <p>Currently I'm studing computer science at master's degree course in UNIBO</p>
+                        <p>Currently, I'm studying computer science at the master's degree course in UNIBO</p>
                         <a href="mailto:lorenzo.chiana@gmail.com">Contact me</a>
                     </div>
                 </li>

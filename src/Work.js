@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Work.css";
-import portfolio from "./img/portfolio.png";
 import github from "./img/github.png";
 
  
