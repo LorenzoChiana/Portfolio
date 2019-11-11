@@ -47,12 +47,12 @@ class App extends Component {
                 </div>
 
                 <ul className="menu">
-                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink exact to="/">About</NavLink></li>
                 <li><NavLink to="/work">Work</NavLink></li>
                 </ul>
             </div>
             <div className="content">
-              <Route exact path="/about" component={About}/>
+              <Route exact path="/" component={About}/>
               <Route exact path="/work" component={Work}/>
             </div>
             <div className="footer">
