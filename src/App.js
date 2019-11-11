@@ -4,7 +4,6 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import Home from "./Home";
 import About from "./About";
 import Work from "./Work";
 import * as Icon from 'react-feather';
@@ -48,13 +47,11 @@ class App extends Component {
                 </div>
 
                 <ul className="menu">
-                <li><NavLink exact to="/">Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/work">Work</NavLink></li>
                 </ul>
             </div>
             <div className="content">
-              <Route exact path="/" component={Home}/>
               <Route exact path="/about" component={About}/>
               <Route exact path="/work" component={Work}/>
             </div>

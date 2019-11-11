@@ -8,6 +8,7 @@ import cosmobile from './img/cosmobile.png';
 import unibo from './img/UniBo-Universita-di-Bologna.png';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
 import { IoIosPaper } from "react-icons/io";
+import { FaJava, FaDatabase, FaCode, FaLinux } from "react-icons/fa";
  
 class About extends Component {
   render() {
@@ -16,7 +17,6 @@ class About extends Component {
         <div className="flex-grid-thirds">
         <div className="col">
           <img className="sj-headshot" src={avatar} />
-
         </div>
         <div className="col-2">
         <p className="desc">
@@ -42,13 +42,32 @@ class About extends Component {
             </div>
         </div>
       </div>
+      <div className="col-md-12 skill">
+        <h2>Professional Skills</h2>
+      </div>
+        <div className="container">
+          <div className="container-item">
+            <FaJava />
+            <h2>Java</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaDatabase />
+            <h2>SQL</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaCode />
+            <h2>Web Development</h2>
+            <p></p>
+          </div>
+        </div>
       <div className="row example-centered">
         <div className="col-md-12 example-title">
             <h2>Timeline</h2>
         </div>
         <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <ul className="timeline timeline-centered">
-            
                 <li className="timeline-item">
                     <div className="timeline-info">
                         <span>Apr 2013</span>

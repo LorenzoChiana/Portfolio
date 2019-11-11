@@ -21,11 +21,6 @@
   width: 50%;
 }
 
-.about .sj-headshot:hover {
-  background-image: linear-gradient(to bottom, #929292, #828282, #737373, #646464, #565656, #4a4a4a, #3e3e3e, #333333, #282828, #1d1d1d, #121212, #000000);
-  transition: background-image 1s ease 5s;
-}
-
 .about .btn {
   color: black;
   text-decoration: none;
@@ -307,6 +302,61 @@
   background: #00D7FF;
 }
 
+.about .skill {
+  text-align: center;
+}
+
+.about .container-item svg {
+  display: block;
+  margin: 1em auto;
+  width: 5em;
+  height: 5em;
+  stroke-width: .5;
+  padding: 2em;
+  transition: 1s;
+}
+
+.about .container-item svg:hover {
+  transform: rotate(360deg);
+  transition: 1s;
+}
+
+.about .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.about .container-item {
+  width: 300px;
+  margin: 0 3em;
+  justify-content: center;
+  text-align: center
+}
+
+.about .container.work-section {
+  margin: 5em;
+}
+
+.about .container.work-section .container-item {
+  width: 100%;
+  margin: 0;
+  color: black;
+  padding: 8em 0 5em 0;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.about .container.work-section .container-item.one {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./img/work.jpg");
+}
+
+.about .container.work-section .container-item.two {
+  background-image: linear-gradient( rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("./img/about.jpg");
+}
+
 @media (max-width: 1000px) {
   .flex-grid-thirds {
     display: flex;
@@ -321,5 +371,14 @@
   .row.example-centered {
     width: 90%;
     margin: 0 auto;
+  }
+  .about .container.work-section {
+    margin: 5em 1em;
+  }
+  .about .container.work-section .container-item, .contact-wrap .container-item {
+    padding: 3em 0 0 0 !important;
+  }
+  .about .skill {
+    text-align: center;
   }
 }
