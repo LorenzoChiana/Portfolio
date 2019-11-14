@@ -42,7 +42,7 @@ class About extends Component {
             </div>
         </div>
       </div>
-      <div className="col-md-12 skill">
+      <div className="col-md-12 example-title">
         <h2>Professional Skills</h2>
       </div>
         <div className="container">
