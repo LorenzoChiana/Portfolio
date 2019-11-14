@@ -8,7 +8,7 @@ import cosmobile from './img/cosmobile.png';
 import unibo from './img/UniBo-Universita-di-Bologna.png';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
 import { IoIosPaper } from "react-icons/io";
-import { FaJava, FaDatabase, FaCode, FaLinux } from "react-icons/fa";
+import { FaJava, FaDatabase, FaCode } from "react-icons/fa";
  
 class About extends Component {
   render() {
@@ -156,7 +156,15 @@ class About extends Component {
             </ul>
         </div>
     </div>
-      </div>
+    <div className="contact-wrap container">
+        <a href="#/work">
+            <div className="container-item contact-me">
+              <h2>Check out some of my work</h2>
+              <Icon.ArrowRightCircle />
+            </div>
+        </a>
+    </div>
+    </div>
     );
   }
 }

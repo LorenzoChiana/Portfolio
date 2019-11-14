@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Work.css";
 import github from "./img/github.png";
+import * as Icon from 'react-feather';
 
  
 class Work extends Component {
@@ -59,7 +60,14 @@ class Work extends Component {
             
             </div>
 
-        
+            <div className="contact-wrap container">
+              <a href="#/">
+                <div className="container-item contact-me">
+                  <h2>About me</h2>
+                  <Icon.ArrowLeftCircle />
+                </div>
+              </a>
+            </div>
       </div>
     );
   }
