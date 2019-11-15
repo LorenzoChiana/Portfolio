@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.18558f59.chunk.css",
+    "main.css": "/static/css/main.44f32b93.chunk.css",
     "main.js": "/static/js/main.d3aa854b.chunk.js",
     "main.js.map": "/static/js/main.d3aa854b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a5eaf332.js",
@@ -9,10 +9,10 @@
     "static/js/2.ade9c821.chunk.js": "/static/js/2.ade9c821.chunk.js",
     "static/js/2.ade9c821.chunk.js.map": "/static/js/2.ade9c821.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3953481cc6c3381417d243e9150f4e2f.js": "/precache-manifest.3953481cc6c3381417d243e9150f4e2f.js",
+    "precache-manifest.826536ce6b4e559620ea68550d3bc7e5.js": "/precache-manifest.826536ce6b4e559620ea68550d3bc7e5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
-    "static/css/main.18558f59.chunk.css.map": "/static/css/main.18558f59.chunk.css.map",
+    "static/css/main.44f32b93.chunk.css.map": "/static/css/main.44f32b93.chunk.css.map",
     "static/media/BE.png": "/static/media/BE.93df5ce9.png",
     "static/media/CV_ChianaLorenzo.pdf": "/static/media/CV_ChianaLorenzo.3e4e2d3f.pdf",
     "static/media/UniBo-Universita-di-Bologna.png": "/static/media/UniBo-Universita-di-Bologna.23f858f1.png",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.a5eaf332.js",
     "static/css/2.8271af8e.chunk.css",
     "static/js/2.ade9c821.chunk.js",
-    "static/css/main.18558f59.chunk.css",
+    "static/css/main.44f32b93.chunk.css",
     "static/js/main.d3aa854b.chunk.js"
   ]
 }
