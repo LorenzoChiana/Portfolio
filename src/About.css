@@ -312,11 +312,6 @@
   transition: 1s;
 }
 
-.about .container-item svg:hover {
-  transform: rotate(360deg);
-  transition: 1s;
-}
-
 .about .container {
   display: flex;
   flex-wrap: wrap;
