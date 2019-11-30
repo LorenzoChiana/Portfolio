@@ -4,6 +4,7 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import ScrollUpButton from "react-scroll-up-button";
 import About from "./About";
 import Work from "./Work";
 import * as Icon from 'react-feather';
@@ -73,6 +74,7 @@ class App extends Component {
             <p></p>
           </div>
           </div>
+          <ScrollUpButton />
         </HashRouter>
       );
     }
