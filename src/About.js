@@ -156,14 +156,7 @@ class About extends Component {
             </ul>
         </div>
     </div>
-    <div className="contact-wrap container">
-        <a href="#/work">
-            <div className="container-item contact-me">
-              <h2>Check out some of my work</h2>
-              <Icon.ArrowRightCircle />
-            </div>
-        </a>
-    </div>
+    
     </div>
     );
   }

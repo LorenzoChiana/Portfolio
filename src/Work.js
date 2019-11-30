@@ -59,15 +59,6 @@ class Work extends Component {
             </a>
             
             </div>
-
-            <div className="contact-wrap container">
-              <a href="#/">
-                <div className="container-item contact-me">
-                  <h2>About me</h2>
-                  <Icon.ArrowLeftCircle />
-                </div>
-              </a>
-            </div>
       </div>
     );
   }
