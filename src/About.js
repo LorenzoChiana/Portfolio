@@ -8,7 +8,7 @@ import cosmobile from './img/cosmobile.png';
 import unibo from './img/UniBo-Universita-di-Bologna.png';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
 import { IoIosPaper } from "react-icons/io";
-import { FaJava, FaDatabase, FaCode } from "react-icons/fa";
+import { FaJava, FaDatabase, FaCode, FaLinux, FaGit, FaPython, FaFile, FaTerminal, FaAngular, FaJs, FaHtml5, FaPhp, FaSass, FaReact, FaCopyright } from "react-icons/fa";
  
 class About extends Component {
   render() {
@@ -47,8 +47,23 @@ class About extends Component {
       </div>
         <div className="container">
           <div className="container-item">
+            <FaCopyright />
+            <h2>C</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaCode />
+            <h2>C#</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
             <FaJava />
             <h2>Java</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaPython />
+            <h2>Python</h2>
             <p></p>
           </div>
           <div className="container-item">
@@ -57,8 +72,54 @@ class About extends Component {
             <p></p>
           </div>
           <div className="container-item">
-            <FaCode />
-            <h2>Web Development</h2>
+            <FaHtml5 />
+            <h2>HTML5</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaPhp />
+            <h2>PHP</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaJs />
+            <h2>JavaScript</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaSass />
+            <h2>SASS</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaAngular />
+            <h2>Angular</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaReact />
+            <h2>React</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaLinux />
+            <h2>Linux</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaTerminal />
+            <h2>Bash</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaGit />
+            <h2>Git</h2>
+            <p></p>
+          </div>
+          
+          <div className="container-item">
+            <FaFile />
+            <h2>LaTeX</h2>
             <p></p>
           </div>
         </div>
