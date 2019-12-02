@@ -22,7 +22,7 @@ import en from './lang/en.json';
 import it from './lang/it.json';
 
 setTranslations({ en, it });
-setDefaultLanguage('en');
+setDefaultLanguage('it');
 
 class App extends Component {
     handleSetLanguage = (key) => () => {

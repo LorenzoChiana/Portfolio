@@ -4,11 +4,53 @@
         "subTitle": "Ingegnere Informatico Junior e Informatico Junior"
     },
     "about-tab": {
-        "description": "My name is "
+        "description-r1": "My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.",
+        "description-r2": "I graduated from the bachelor of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) at the University of Bologna with a ",
+        "description-r3": " on hospital 4.0.",
+        "description-r4": "During my university career, I developed several projects (here my ",
+        "description-r5": ") ranging from web development to programming of embedded systems and IoT.",
+        "description-r6": "I am currently continuing my studies and I am attending the course of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here my ",
+        "sub-tab1": "Competenze Professionali",
+        "sub-tab2": "Timeline",
+        "timeline": {
+            "date1": "Aprile 2013",
+            "title1": "Alternanza scuola lavoro in BitLine sas",
+            "descr1_1": "Principali attività e responsabilità: assemblaggio e riparazione computer, data entry e gestione del sito aziendale.",
+            "descr1_2": "Competenze e obiettivi ottenuti: imparato dinamiche aziendali. Ampliata conoscenza sulla componentistica hardware dei calcolatori.",
+        
+            "date2": "Luglio - Agosto 2013",
+            "title2": "Stage estivo in BE Infrastrutture S.R.L.",
+            "descr2_1": "Principali attività e responsabilità: assistenza informatica sia in loco che da remoto al personale delle varie sedi di CMC Ravenna. Gestione dati RDA e ORD. Creato programma in Java su richiesta dell'azienda per il monitoraggio della capienza degli hard disk dei server aziendali. Gestione della rete aziendale affiancato al tutor aziendale.",
+            "descr2_2": "Competenze e obiettivi ottenuti: acquisite conoscenze di base sul networking. Gestione e risoluzione a problematiche IT. Progettazione e sviluppo software.",
+
+            "date3": "Luglio 2014",
+            "title3": "Diploma superiore",
+            "descr3_1": "Diplomato in informatica all'ITIS Nullo Baldini Di Ravenna.",
+            "descr3_2": "",
+
+            "date4": "Novembre - Dicembre 2017",
+            "title4": "Tirocinio a Cosmobile S.R.L.",
+            "descr4_1": "Principali attività e responsabilità: progettazione ed implementazione di software web-based su stack LAMP basati su un framework aziendale derivato da Zend Framework all'interno del team di sviluppo.",
+            "descr4_2": "Competenze e obiettivi ottenuti: appreso come analizzare e progettare un software, applicando i principali design pattern. Appreso come strutturare piani di test.",
+
+            "date5": "Marzo 2017",
+            "title5": "Laurea triennale",
+            "descr5_1": "Mi sono displomato nel 2017 in Ingegneria e Scienze informatiche all'università di Bologna, Campus di Cesena.",
+            "descr5_2": "",
+
+            "date6": "Ora",
+            "title6": "Studente in UNIBO",
+            "descr6_1": "In questo momento sto studiando al corso magistrale di Ingegneria e Scienze informatiche.",
+            "descr6_2": ""
+        }
     },
     "work-tab": {
 
     },
     "about": "About",
-    "work": "Lavori"
+    "work": "Lavori",
+    "thesis": "tesi",
+    "gh_repo": "GitHub repository",
+    "cv": "Curriculum Vitae",
+    "contact_me": "Contattami"
 }

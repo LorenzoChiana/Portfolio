@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./About.css";
 import * as Icon from 'react-feather';
 import avatar from './img/me.jpg';
+import itis from './img/itis.png';
 import bitline from './img/bitline.png';
 import beinfrastrutture from './img/BE.png';
 import cosmobile from './img/cosmobile.png';
@@ -150,87 +151,71 @@ class About extends Component {
             <ul className="timeline timeline-centered">
                 <li className="timeline-item">
                     <div className="timeline-info">
-                        <span>Apr 2013</span>
+                        <span>{t("about-tab.timeline.date1")}</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Internship in BitLine sas</h3>
-                        <p>Main activities and responsibilities: Computer assembly and repair, data entry and management of the company website.</p>
-                        <p>Skills and objectives achieved: Learned business dynamics. Expanded knowledge of computer hardware components.</p>
+                        <h3 className="timeline-title">{t("about-tab.timeline.title1")}</h3>
+                        <p>{t("about-tab.timeline.descr1_1")}</p>
+                        <p>{t("about-tab.timeline.descr1_2")}</p>
                         <img width="100px" src={bitline} />
                     </div>
                 </li>
                 <li className="timeline-item">
                     <div className="timeline-info">
-                        <span>Jul - Aug 2013</span>
+                        <span>{t("about-tab.timeline.date2")}</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Summer internship in BE Infrastrutture S.R.L.</h3>
-                        <p>
-                            Main activities and responsibilities:
-                            IT assistance both on-site and remotely for the staff of the various CMC Ravenna offices.
-                            RDA and ORD data management.
-                            Created at the request of the company a Java program for monitoring of servers' hard disks capacity.
-                            Management of the corporate network alongside the company tutor.
-                        </p>
-                        <p>
-                            Skills and objectives achieved:
-                            Basic networking knowledge.
-                            Management and resolution of IT issues.
-                            Design and development software.
-                        </p>
+                        <h3 className="timeline-title">{t("about-tab.timeline.title2")}</h3>
+                        <p>{t("about-tab.timeline.descr2_1")}</p>
+                        <p>{t("about-tab.timeline.descr2_2")}</p>
                         <img width="100px" src={beinfrastrutture} />
                     </div>
                 </li>
                 <li className="timeline-item">
                     <div className="timeline-info">
-                        <span>Jul 2014</span>
+                        <span>{t("about-tab.timeline.date3")}</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">High school diploma</h3>
-                        <p>Graduated in computer science from the technical industrial institute Nullo Baldini (ITIS N. Baldini)</p>
+                        <h3 className="timeline-title">{t("about-tab.timeline.title3")}</h3>
+                        <p>{t("about-tab.timeline.descr3_1")}</p>
+                        <img width="100px" src={itis} />
                     </div>
                 </li>
                 <li className="timeline-item">
                     <div className="timeline-info">
-                        <span>Nov - Dec 2017</span>
+                        <span>{t("about-tab.timeline.date4")}</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Internship in Cosmobile S.R.L.</h3>
-                        <p>
-                            Main activities and responsibilities: Design and implementation of web-based software on LAMP stacks based on a corporate framework derived from the Zend Framework within the development team.
-                        </p>
-                        <p>
-                            Skills and objectives achieved:
-                            Learning to analyze and design software, applying the main design patterns.
-                            Learn to structure test plans.
-                        </p>
+                        <h3 className="timeline-title">{t("about-tab.timeline.title4")}</h3>
+                        <p>{t("about-tab.timeline.descr4_1")}</p>
+                        <p>{t("about-tab.timeline.descr4_2")}</p>
                         <img width="100px" src={cosmobile} />
                     </div>
                 </li>
                 <li className="timeline-item">
                     <div className="timeline-info">
-                        <span>March 2017</span>
+                        <span>{t("about-tab.timeline.date5")}</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Bachelor's Degree</h3>
-                        <p>I graduated in 2017 in Engineering and Computer Science from Bologna University in Cesena, Italy.</p>
+                        <h3 className="timeline-title">{t("about-tab.timeline.title5")}</h3>
+                        <p>{t("about-tab.timeline.descr5_1")}</p>
                         <img width="150px" src={unibo} />
                     </div>
                 </li>
                 <li className="timeline-item">
                     <div className="timeline-info">
-                        <span>Current</span>
+                        <span>{t("about-tab.timeline.date6")}</span>
                     </div>
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
-                        <h3 className="timeline-title">Student at UNIBO</h3>
-                        <p>Currently, I'm studying computer science at the master's degree course in UNIBO</p>
-                        <a href="mailto:lorenzo.chiana@gmail.com">Contact me</a>
+                        <h3 className="timeline-title">{t("about-tab.timeline.title6")}</h3>
+                        <p>{t("about-tab.timeline.descr6_1")}</p>
+                        <a href="mailto:lorenzo.chiana@gmail.com">{t("contact_me")}</a>
                     </div>
                 </li>
             </ul>

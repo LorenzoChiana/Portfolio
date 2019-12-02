@@ -11,7 +11,38 @@
         "description-r5": ") ranging from web development to programming of embedded systems and IoT.",
         "description-r6": "I am currently continuing my studies and I am attending the course of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here my ",
         "sub-tab1": "Professional Skills",
-        "sub-tab2": "Timeline"
+        "sub-tab2": "Timeline",
+        "timeline": {
+            "date1": "Apr 2013",
+            "title1": "Internship in BitLine sas",
+            "descr1_1": "Main activities and responsibilities: Computer assembly and repair, data entry and management of the company website.",
+            "descr1_2": "Skills and objectives achieved: Learned business dynamics. Expanded knowledge of computer hardware components.",
+        
+            "date2": "Jul - Aug 2013",
+            "title2": "Summer internship in BE Infrastrutture S.R.L.",
+            "descr2_1": "Main activities and responsibilities: IT assistance both on-site and remotely for the staff of the various CMC Ravenna offices. RDA and ORD data management. Created at the request of the company a Java program for monitoring of servers' hard disks capacity. Management of the corporate network alongside the company tutor.",
+            "descr2_2": "Skills and objectives achieved: Basic networking knowledge. Management and resolution of IT issues. Design and development software.",
+
+            "date3": "Jul 2014",
+            "title3": "High school diploma",
+            "descr3_1": "Graduated in computer science from the technical industrial institute Nullo Baldini (ITIS N. Baldini)",
+            "descr3_2": "",
+
+            "date4": "Nov - Dec 2017",
+            "title4": "Internship in Cosmobile S.R.L.",
+            "descr4_1": "Main activities and responsibilities: Design and implementation of web-based software on LAMP stacks based on a corporate framework derived from the Zend Framework within the development team.",
+            "descr4_2": "Skills and objectives achieved: Learning to analyze and design software, applying the main design patterns. Learn to structure test plans.",
+
+            "date5": "March 2017",
+            "title5": "Bachelor's Degree",
+            "descr5_1": "I graduated in 2017 in Engineering and Computer Science from Bologna University in Cesena, Italy.",
+            "descr5_2": "",
+
+            "date6": "Current",
+            "title6": "Student at UNIBO",
+            "descr6_1": "Currently, I'm studying computer science at the master's degree course in UNIBO",
+            "descr6_2": ""
+        }
     },
     "work-tab": {
 
@@ -20,5 +51,6 @@
     "work": "Work",
     "thesis": "thesis",
     "gh_repo": "GitHub repository",
-    "cv": "Curriculum Vitae"
+    "cv": "Curriculum Vitae",
+    "contact_me": "Contact me"
 }
