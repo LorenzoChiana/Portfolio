@@ -11,9 +11,25 @@ import * as Icon from 'react-feather';
 import Particles from 'react-particles-js';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
 import { IoIosPaper } from "react-icons/io";
+import {
+  setTranslations,
+  setDefaultLanguage,
+  setLanguage,
+  translate,
+} from 'react-switch-lang';
+import PropTypes from 'prop-types';
+import en from './lang/en.json';
+import it from './lang/it.json';
+
+setTranslations({ en, it });
+setDefaultLanguage('en');
 
 class App extends Component {
+    handleSetLanguage = (key) => () => {
+      setLanguage(key);
+    };
     render() {
+      const { t } = this.props;
       return (
         <HashRouter>
           <div>
@@ -43,14 +59,14 @@ class App extends Component {
 	        } } />
             <div className="header">
                 <div className="topheader">
-                <h1>Lorenzo Chiana</h1>
-                <p>Junior Computer Engineer and Scientist</p>
+                <h1>{t('app.title')}</h1>
+                <p>{t('app.subTitle')}</p>
                 </div>
-
                 <ul className="menu">
-                <li><NavLink exact to="/">About</NavLink></li>
-                <li><NavLink to="/work">Work</NavLink></li>
+                  <li><NavLink exact to="/">{t('about')}</NavLink></li>
+                  <li><NavLink to="/work">{t('work')}</NavLink></li>
                 </ul>
+                
             </div>
             <div className="content">
               <Route exact path="/" component={About}/>
@@ -79,4 +95,8 @@ class App extends Component {
       );
     }
   }
-export default App;
+
+  App.propTypes = {
+    t: PropTypes.func.isRequired,
+  };
+export default translate(App);

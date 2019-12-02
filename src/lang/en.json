@@ -1,0 +1,24 @@
+{
+    "app": {
+        "title": "Lorenzo Chiana",
+        "subTitle": "Junior Computer Engineer and Scientist"
+    },
+    "about-tab": {
+        "description-r1": "My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.",
+        "description-r2": "I graduated from the bachelor of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) at the University of Bologna with a ",
+        "description-r3": " on hospital 4.0.",
+        "description-r4": "During my university career, I developed several projects (here my ",
+        "description-r5": ") ranging from web development to programming of embedded systems and IoT.",
+        "description-r6": "I am currently continuing my studies and I am attending the course of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here my ",
+        "sub-tab1": "Professional Skills",
+        "sub-tab2": "Timeline"
+    },
+    "work-tab": {
+
+    },
+    "about": "About",
+    "work": "Work",
+    "thesis": "thesis",
+    "gh_repo": "GitHub repository",
+    "cv": "Curriculum Vitae"
+}

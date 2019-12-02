@@ -9,9 +9,24 @@ import unibo from './img/UniBo-Universita-di-Bologna.png';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
 import { IoIosPaper } from "react-icons/io";
 import { FaJava, FaDatabase, FaCode, FaLinux, FaGit, FaPython, FaFile, FaTerminal, FaAngular, FaJs, FaHtml5, FaPhp, FaSass, FaReact, FaCopyright } from "react-icons/fa";
- 
+import {
+  setTranslations,
+  setDefaultLanguage,
+  setLanguage,
+  translate,
+} from 'react-switch-lang';
+import en from './lang/en.json';
+import it from './lang/it.json';
+
+setTranslations({ en, it });
+setDefaultLanguage('en');
+
 class About extends Component {
+  handleSetLanguage = (key) => () => {
+    setLanguage(key);
+  };
   render() {
+    const { t } = this.props;
     return (
       <div className="about">
         <div className="flex-grid-thirds">
@@ -20,11 +35,15 @@ class About extends Component {
         </div>
         <div className="col-2">
         <p className="desc">
-            My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.<br/>
-            I graduated from the bachelor of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) at the University of Bologna with a <a href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="_blank">thesis</a> on hospital 4.0.<br/>
-            During my university career, I developed several projects (here my <a href="https://github.com/LorenzoChiana" target="_blank">GitHub repository</a>) ranging from web development to programming of embedded systems and IoT.<br/>
-            I am currently continuing my studies and I am attending the course of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) also at the University of Bologna, specializing in data science.
-            If you are interested in finding out more about me here my <a href={PDF} target="_blank">Curriculum Vitae</a>.
+        {t('about-tab.description-r1')}<br/>
+        {t('about-tab.description-r2')}
+        <a href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="_blank">{t('thesis')}</a> 
+        {t('about-tab.description-r3')}<br/>
+        {t('about-tab.description-r4')}
+        <a href="https://github.com/LorenzoChiana" target="_blank">{t("gh_repo")}</a>
+        {t('about-tab.description-r5')}<br/>
+        {t('about-tab.description-r6')}
+    <a href={PDF} target="_blank">{t("cv")}</a>.
         </p>
             <div className="socialmedia">
                 <a href="mailto:lorenzo.chiana@gmail.com">
@@ -43,7 +62,7 @@ class About extends Component {
         </div>
       </div>
       <div className="col-md-12 example-title">
-        <h2>Professional Skills</h2>
+        <h2>{t("about-tab.sub-tab1")}</h2>
       </div>
         <div className="container">
           <div className="container-item">
@@ -125,7 +144,7 @@ class About extends Component {
         </div>
       <div className="row example-centered">
         <div className="col-md-12 example-title">
-            <h2>Timeline</h2>
+            <h2>{t("about-tab.sub-tab2")}</h2>
         </div>
         <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <ul className="timeline timeline-centered">
@@ -223,4 +242,4 @@ class About extends Component {
   }
 }
  
-export default About;
+export default translate(About);
