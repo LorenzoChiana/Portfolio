@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.8b69fbdd.chunk.css",
-    "main.js": "/static/js/main.646b1014.chunk.js",
-    "main.js.map": "/static/js/main.646b1014.chunk.js.map",
+    "main.js": "/static/js/main.17319141.chunk.js",
+    "main.js.map": "/static/js/main.17319141.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a5eaf332.js",
     "runtime-main.js.map": "/static/js/runtime-main.a5eaf332.js.map",
     "static/css/2.8271af8e.chunk.css": "/static/css/2.8271af8e.chunk.css",
-    "static/js/2.5c42aa93.chunk.js": "/static/js/2.5c42aa93.chunk.js",
-    "static/js/2.5c42aa93.chunk.js.map": "/static/js/2.5c42aa93.chunk.js.map",
+    "static/js/2.0a1de864.chunk.js": "/static/js/2.0a1de864.chunk.js",
+    "static/js/2.0a1de864.chunk.js.map": "/static/js/2.0a1de864.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.12dda9a8dcbc72c3f884579ce3ab8600.js": "/precache-manifest.12dda9a8dcbc72c3f884579ce3ab8600.js",
+    "precache-manifest.194268d1b03ecc80bdb6ef21a204fa5d.js": "/precache-manifest.194268d1b03ecc80bdb6ef21a204fa5d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
     "static/css/main.8b69fbdd.chunk.css.map": "/static/css/main.8b69fbdd.chunk.css.map",
@@ -17,15 +17,20 @@
     "static/media/CV_ChianaLorenzo.pdf": "/static/media/CV_ChianaLorenzo.3e4e2d3f.pdf",
     "static/media/UniBo-Universita-di-Bologna.png": "/static/media/UniBo-Universita-di-Bologna.23f858f1.png",
     "static/media/About.css": "/static/media/work.1257def8.jpg",
+    "static/media/bikesharing.jpg": "/static/media/bikesharing.aee0039e.jpg",
+    "static/media/exams.jpg": "/static/media/exams.23cf80aa.jpg",
+    "static/media/filemanager.jpg": "/static/media/filemanager.13e0e50c.jpg",
     "static/media/github.png": "/static/media/github.5a50d10f.png",
     "static/media/me.jpg": "/static/media/me.82c7bf70.jpg",
-    "static/media/index.css": "/static/media/roboto-latin-900italic.ebf6d164.woff2"
+    "static/media/portfolio.jpg": "/static/media/portfolio.ac5be349.jpg",
+    "static/media/index.css": "/static/media/roboto-latin-900italic.ebf6d164.woff2",
+    "static/media/vaccine.jpg": "/static/media/vaccine.42ac5461.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a5eaf332.js",
     "static/css/2.8271af8e.chunk.css",
-    "static/js/2.5c42aa93.chunk.js",
+    "static/js/2.0a1de864.chunk.js",
     "static/css/main.8b69fbdd.chunk.css",
-    "static/js/main.646b1014.chunk.js"
+    "static/js/main.17319141.chunk.js"
   ]
 }

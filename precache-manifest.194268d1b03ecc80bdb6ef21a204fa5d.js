@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0610083a4800758705c67b365e08abf4",
+    "revision": "b8a57cb4dad14a1b0977082e70e982ba",
     "url": "/index.html"
   },
   {
-    "revision": "dcfee12bb40a61b43ff0",
+    "revision": "ace185b264603c5b146a",
     "url": "/static/css/2.8271af8e.chunk.css"
   },
   {
-    "revision": "1666a34b2b9e21e25a1d",
+    "revision": "37c9fa90575ec32021e4",
     "url": "/static/css/main.8b69fbdd.chunk.css"
   },
   {
-    "revision": "dcfee12bb40a61b43ff0",
-    "url": "/static/js/2.5c42aa93.chunk.js"
+    "revision": "ace185b264603c5b146a",
+    "url": "/static/js/2.0a1de864.chunk.js"
   },
   {
-    "revision": "1666a34b2b9e21e25a1d",
-    "url": "/static/js/main.646b1014.chunk.js"
+    "revision": "37c9fa90575ec32021e4",
+    "url": "/static/js/main.17319141.chunk.js"
   },
   {
     "revision": "05129d9571d833ef1980",
@@ -40,12 +40,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/about.7e1fb89d.jpg"
   },
   {
+    "revision": "aee0039e9b61c2797570fe1da1136310",
+    "url": "/static/media/bikesharing.aee0039e.jpg"
+  },
+  {
+    "revision": "23cf80aa834da9e2a3536a729df820d8",
+    "url": "/static/media/exams.23cf80aa.jpg"
+  },
+  {
+    "revision": "13e0e50c087eef72325281839705aa7b",
+    "url": "/static/media/filemanager.13e0e50c.jpg"
+  },
+  {
     "revision": "5a50d10f6e6bfa01ccb9bab9da01005e",
     "url": "/static/media/github.5a50d10f.png"
   },
   {
     "revision": "82c7bf70e808c5dc60cacab8a6c618b0",
     "url": "/static/media/me.82c7bf70.jpg"
+  },
+  {
+    "revision": "ac5be3490b36ea47f2ea77a82be6f0b8",
+    "url": "/static/media/portfolio.ac5be349.jpg"
   },
   {
     "revision": "5cb7edfceb233100075dc9a1e12e8da3",
@@ -142,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ebf6d1640ccddb99fb49f73c052c55a8",
     "url": "/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  {
+    "revision": "42ac54610a6cab8ace05678d4c3cd8d4",
+    "url": "/static/media/vaccine.42ac5461.jpg"
   },
   {
     "revision": "1257def88ca43446fef93ac1efb044c4",
