@@ -45,7 +45,7 @@ class Work extends Component {
               <img src={code} alt="project-image" />
               <div className="txt-container">
                 <h4><b>Functional and Object Oriented Language Compiler</b><br/>Development of a compiler for the Functional and Object Oriented Language.</h4> 
-                <p>2018 <span className="slashes">//</span> Java / Parsing / Type Checking / Code Generation </p> 
+                <p>2018 <span className="slashes">//</span> Java / ANTLR / Parsing / Type Checking / Code Generation </p> 
               </div>
             </a>
 
