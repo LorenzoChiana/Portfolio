@@ -8,14 +8,25 @@ import sol from "./img/exams.jpg";
 import portfolio from "./img/portfolio.jpg";
 import dataanalysis from "./img/dataanalysis.jpg";
 import code from "./img/code.jpg";
-import * as Icon from 'react-feather';
+import {
+  setTranslations,
+  setDefaultLanguage,
+  setLanguage,
+  translate,
+} from 'react-switch-lang';
+import en from './lang/en.json';
+import it from './lang/it.json';
+import detectBrowserLanguage from 'detect-browser-language';
 
- 
+setTranslations({ en, it });
+setDefaultLanguage(detectBrowserLanguage() == "it-IT" ? "it" : "en");
+
 class Work extends Component {
   render() {
+    const { t } = this.props;
     return (
       <div className="work">
-        <h2>Projects</h2>
+        <h2>{t('work-tab.title1')}</h2>
           <div className="container">
             <a className="card" href="https://github.com/LorenzoChiana/portfolio" target="_blank">
               <img src={portfolio} alt="project-image" />
@@ -30,7 +41,7 @@ class Work extends Component {
               </div>
             </a> 
         </div>
-        <h2>UNIBO projects</h2>
+        <h2>{t('work-tab.title2')}</h2>
             <div className="container">
 
             <a className="card" href="https://github.com/LorenzoChiana/DSS19" target="_blank">
@@ -86,4 +97,4 @@ class Work extends Component {
     );
   }
 }
-export default Work;
+export default translate(Work);

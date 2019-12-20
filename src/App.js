@@ -17,17 +17,15 @@ import {
   setLanguage,
   translate,
 } from 'react-switch-lang';
+import detectBrowserLanguage from 'detect-browser-language';
 import PropTypes from 'prop-types';
 import en from './lang/en.json';
 import it from './lang/it.json';
 
 setTranslations({ en, it });
-setDefaultLanguage('it');
+setDefaultLanguage(detectBrowserLanguage() == "it-IT" ? "it" : "en");
 
 class App extends Component {
-    handleSetLanguage = (key) => () => {
-      setLanguage(key);
-    };
     render() {
       const { t } = this.props;
       return (

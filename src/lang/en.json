@@ -45,7 +45,8 @@
         }
     },
     "work-tab": {
-
+        "title1": "Projects",
+        "title2": "UNIBO Projects"
     },
     "about": "About",
     "work": "Work",
