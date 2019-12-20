@@ -25,6 +25,7 @@ setTranslations({ en, it });
 setDefaultLanguage('it');
 
 class App extends Component {
+  
     handleSetLanguage = (key) => () => {
       setLanguage(key);
     };
@@ -66,7 +67,6 @@ class App extends Component {
                   <li><NavLink exact to="/">{t('about')}</NavLink></li>
                   <li><NavLink to="/work">{t('work')}</NavLink></li>
                 </ul>
-                
             </div>
             <div className="content">
               <Route exact path="/" component={About}/>

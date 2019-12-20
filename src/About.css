@@ -291,6 +291,9 @@
   .timeline-centered .period .timeline-title {
     left: auto;
   }
+  .scrolling-wrapper {
+    display: none;
+  }
 }
 
 .marker-outline .timeline-marker:before {
@@ -305,10 +308,10 @@
 .about .container-item svg {
   display: block;
   margin: 1em auto;
-  width: 5em;
-  height: 5em;
+  width: 4em;
+  height: 4em;
   stroke-width: .5;
-  padding: 2em;
+  padding: 1em;
   transition: 1s;
 }
 
@@ -368,5 +371,21 @@
   }
   .about .container.work-section .container-item, .contact-wrap .container-item {
     padding: 3em 0 0 0 !important;
+  }
+  .container .container-item {
+    visibility: hidden;
+    display: none;
+  }
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .scrolling-wrapper .container-item {
+    display: inline-block;
   }
 }

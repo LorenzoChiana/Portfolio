@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./About.css";
+//import { Button, Card, Image } from 'semantic-ui-react';
 import * as Icon from 'react-feather';
 import avatar from './img/me.jpg';
 import itis from './img/itis.png';
@@ -67,82 +68,161 @@ class About extends Component {
       </div>
         <div className="container">
           <div className="container-item">
-            <FaCopyright />
+            <FaCopyright id="skill-icon"/>
             <h2>C</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaCode />
+            <FaCode id="skill-icon"/>
             <h2>C#</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaJava />
+            <FaJava id="skill-icon"/>
             <h2>Java</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaPython />
+            <FaPython id="skill-icon"/>
             <h2>Python</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaDatabase />
+            <FaDatabase id="skill-icon"/>
             <h2>SQL</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaHtml5 />
+            <FaHtml5 id="skill-icon"/>
             <h2>HTML5</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaPhp />
+            <FaPhp id="skill-icon"/>
             <h2>PHP</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaJs />
+            <FaJs id="skill-icon"/>
             <h2>JavaScript</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaSass />
+            <FaSass id="skill-icon"/>
             <h2>SASS</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaAngular />
+            <FaAngular id="skill-icon"/>
             <h2>Angular</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaReact />
+            <FaReact id="skill-icon"/>
             <h2>React</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaLinux />
+            <FaLinux id="skill-icon"/>
             <h2>Linux</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaTerminal />
+            <FaTerminal id="skill-icon"/>
             <h2>Bash</h2>
             <p></p>
           </div>
           <div className="container-item">
-            <FaGit />
+            <FaGit id="skill-icon"/>
             <h2>Git</h2>
             <p></p>
           </div>
           
           <div className="container-item">
-            <FaFile />
+            <FaFile id="skill-icon"/>
             <h2>LaTeX</h2>
             <p></p>
           </div>
         </div>
+        <div class="scrolling-wrapper">
+        <div className="container-item">
+            <FaCopyright id="skill-icon"/>
+            <h2>C</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaCode id="skill-icon"/>
+            <h2>C#</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaJava id="skill-icon"/>
+            <h2>Java</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaPython id="skill-icon"/>
+            <h2>Python</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaDatabase id="skill-icon"/>
+            <h2>SQL</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaHtml5 id="skill-icon"/>
+            <h2>HTML5</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaPhp id="skill-icon"/>
+            <h2>PHP</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaJs id="skill-icon"/>
+            <h2>JavaScript</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaSass id="skill-icon"/>
+            <h2>SASS</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaAngular id="skill-icon"/>
+            <h2>Angular</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaReact id="skill-icon"/>
+            <h2>React</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaLinux id="skill-icon"/>
+            <h2>Linux</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaTerminal id="skill-icon"/>
+            <h2>Bash</h2>
+            <p></p>
+          </div>
+          <div className="container-item">
+            <FaGit id="skill-icon"/>
+            <h2>Git</h2>
+            <p></p>
+          </div>
+          
+          <div className="container-item">
+            <FaFile id="skill-icon"/>
+            <h2>LaTeX</h2>
+            <p></p>
+          </div>
+        </div>
+        
       <div className="row example-centered">
         <div className="col-md-12 example-title">
             <h2>{t("about-tab.sub-tab2")}</h2>
