@@ -1,23 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.8b69fbdd.chunk.css",
-    "main.js": "/static/js/main.17319141.chunk.js",
-    "main.js.map": "/static/js/main.17319141.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.a5eaf332.js",
-    "runtime-main.js.map": "/static/js/runtime-main.a5eaf332.js.map",
+    "main.js": "/static/js/main.f4860a24.chunk.js",
+    "main.js.map": "/static/js/main.f4860a24.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.170f8412.js",
+    "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
     "static/css/2.8271af8e.chunk.css": "/static/css/2.8271af8e.chunk.css",
-    "static/js/2.0a1de864.chunk.js": "/static/js/2.0a1de864.chunk.js",
-    "static/js/2.0a1de864.chunk.js.map": "/static/js/2.0a1de864.chunk.js.map",
+    "static/js/2.ccbe674b.chunk.js": "/static/js/2.ccbe674b.chunk.js",
+    "static/js/2.ccbe674b.chunk.js.map": "/static/js/2.ccbe674b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.194268d1b03ecc80bdb6ef21a204fa5d.js": "/precache-manifest.194268d1b03ecc80bdb6ef21a204fa5d.js",
+    "precache-manifest.52ae323cc86929c6e407724799660013.js": "/precache-manifest.52ae323cc86929c6e407724799660013.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
     "static/css/main.8b69fbdd.chunk.css.map": "/static/css/main.8b69fbdd.chunk.css.map",
+    "static/js/2.ccbe674b.chunk.js.LICENSE": "/static/js/2.ccbe674b.chunk.js.LICENSE",
     "static/media/BE.png": "/static/media/BE.93df5ce9.png",
     "static/media/CV_ChianaLorenzo.pdf": "/static/media/CV_ChianaLorenzo.3e4e2d3f.pdf",
     "static/media/UniBo-Universita-di-Bologna.png": "/static/media/UniBo-Universita-di-Bologna.23f858f1.png",
     "static/media/About.css": "/static/media/work.1257def8.jpg",
     "static/media/bikesharing.jpg": "/static/media/bikesharing.aee0039e.jpg",
+    "static/media/code.jpg": "/static/media/code.7fd0c516.jpg",
+    "static/media/dataanalysis.jpg": "/static/media/dataanalysis.ac893d94.jpg",
     "static/media/exams.jpg": "/static/media/exams.23cf80aa.jpg",
     "static/media/filemanager.jpg": "/static/media/filemanager.13e0e50c.jpg",
     "static/media/github.png": "/static/media/github.5a50d10f.png",
@@ -27,10 +30,10 @@
     "static/media/vaccine.jpg": "/static/media/vaccine.42ac5461.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5eaf332.js",
+    "static/js/runtime-main.170f8412.js",
     "static/css/2.8271af8e.chunk.css",
-    "static/js/2.0a1de864.chunk.js",
+    "static/js/2.ccbe674b.chunk.js",
     "static/css/main.8b69fbdd.chunk.css",
-    "static/js/main.17319141.chunk.js"
+    "static/js/main.f4860a24.chunk.js"
   ]
 }
