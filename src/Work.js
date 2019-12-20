@@ -6,6 +6,8 @@ import vaccine from "./img/vaccine.jpg";
 import filemanager from "./img/filemanager.jpg";
 import sol from "./img/exams.jpg";
 import portfolio from "./img/portfolio.jpg";
+import dataanalysis from "./img/dataanalysis.jpg";
+import code from "./img/code.jpg";
 import * as Icon from 'react-feather';
 
  
@@ -30,6 +32,22 @@ class Work extends Component {
         </div>
         <h2>UNIBO projects</h2>
             <div className="container">
+
+            <a className="card" href="https://github.com/LorenzoChiana/DSS19" target="_blank">
+              <img src={dataanalysis} alt="project-image" />
+              <div className="txt-container">
+                <h4><b>Orders Analytics</b><br/>Application that allows you to make a forecast on a historical series of orders based on a stochastic forecasting model.</h4> 
+                <p>2019 <span className="slashes">//</span> Python / C# / SQLite / MVC / Data Analytics</p> 
+              </div>
+            </a>
+
+            <a className="card" href="https://github.com/LorenzoChiana/LCMC1819" target="_blank">
+              <img src={code} alt="project-image" />
+              <div className="txt-container">
+                <h4><b>Functional and Object Oriented Language Compiler</b><br/>Development of a compiler for the Functional and Object Oriented Language.</h4> 
+                <p>2018 <span className="slashes">//</span> Java / ANTLR / Parsing / Type Checking / Code Generation </p> 
+              </div>
+            </a>
 
             <a className="card" href="https://github.com/LorenzoChiana/BikeSharing" target="_blank">
               <img src={bikesharing} alt="project-image" />
