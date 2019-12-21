@@ -46,9 +46,53 @@
     },
     "work-tab": {
         "title1": "Progetti",
-        "title2": "Progetti UNIBO"
+        "title2": "Progetti UNIBO",
+        "card": {
+            "portfolio": {
+                "title": "Portfolio",
+                "body": "Questo sito.",
+                "footer-year": "2019",
+                "footer-info": "React / CSS"
+            },
+            "DSS": {
+                "title": "Orders Analytics",
+                "body": "Applicazione che permette di fare una previsione su una serie storica di ordini basata su un modello di previsione stocastico.",
+                "footer-year": "2019",
+                "footer-info": "Python / C# / SQLite / MVC / Data Analytics"
+            },
+            "LCMC": {
+                "title": "Compilatore di Functional and Object Oriented Language",
+                "body": "Sviluppo di un compilatore per Functional and Object Oriented Language.",
+                "footer-year": "2018",
+                "footer-info": "Java / ANTLR / Parsing / Type Checking / Code Generation"
+            },
+            "bikesharing": {
+                "title": "BikeSharing",
+                "body": "Sito per la gestione di un ipotetico servizio di bike-sharing. Sviluppato su stack MEAN.",
+                "footer-year": "2017",
+                "footer-info": "Angular / Node / SCSS / MongoDB"
+            },
+            "vakcino": {
+                "title": "Vakcino",
+                "body": "Applicatione Android che permette all'utente di gestire sia le proprie vaccinazioni che quelle dei prorpi famigliari.",
+                "footer-year": "2016",
+                "footer-info": "Android / Java / XML / SQL / MVC"
+            },
+            "sol": {
+                "title": "SOL restyle",
+                "body": "Ricostruzione della home page della piattaforma SOL (Studenti Online) dell'Università di Bologna a cui è stata aggiunta la funzionalità di condivisione di appunti e diapositive tra studenti e professori.",
+                "footer-year": "2015",
+                "footer-info": "HTML / PHP / JavaScript / CSS / SQL"
+            },
+            "filemanager": {
+                "title": "FileMiner",
+                "body": "Creazione di un file manager in Java con pattern MVC per il corso di OOP (Programmazione Orientata agli Oggetti).",
+                "footer-year": "2015",
+                "footer-info": "Java / MVC"
+            }
+        }
     },
-    "about": "About",
+    "about": "Su di me",
     "work": "Lavori",
     "thesis": "tesi",
     "gh_repo": "GitHub repository",

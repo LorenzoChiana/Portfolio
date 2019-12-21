@@ -32,12 +32,11 @@ class Work extends Component {
               <img src={portfolio} alt="project-image" />
               <div className="txt-container">
                 <h4>
-                  <b>Portfolio </b>
-                  <i>( current )</i>
+                  <b>{t('work-tab.card.portfolio.title')}</b>
                   <br />
-                  This Website.
+                  {t('work-tab.card.portfolio.body')}
                 </h4> 
-                <p>2019 <span className="slashes">//</span> React / CSS</p> 
+                <p>{t('work-tab.card.portfolio.footer-year')}<span className="slashes">//</span>{t('work-tab.card.portfolio.footer-info')}</p> 
               </div>
             </a> 
         </div>
@@ -47,51 +46,71 @@ class Work extends Component {
             <a className="card" href="https://github.com/LorenzoChiana/DSS19" target="_blank">
               <img src={dataanalysis} alt="project-image" />
               <div className="txt-container">
-                <h4><b>Orders Analytics</b><br/>Application that allows you to make a forecast on a historical series of orders based on a stochastic forecasting model.</h4> 
-                <p>2019 <span className="slashes">//</span> Python / C# / SQLite / MVC / Data Analytics</p> 
+                <h4>
+                  <b>{t('work-tab.card.DSS.title')}</b>
+                  <br/>
+                  {t('work-tab.card.DSS.body')}
+                </h4> 
+                <p>{t('work-tab.card.DSS.footer-year')}<span className="slashes">//</span>{t('work-tab.card.DSS.footer-info')}</p> 
               </div>
             </a>
 
             <a className="card" href="https://github.com/LorenzoChiana/LCMC1819" target="_blank">
               <img src={code} alt="project-image" />
               <div className="txt-container">
-                <h4><b>Functional and Object Oriented Language Compiler</b><br/>Development of a compiler for the Functional and Object Oriented Language.</h4> 
-                <p>2018 <span className="slashes">//</span> Java / ANTLR / Parsing / Type Checking / Code Generation </p> 
+                <h4>
+                  <b>{t('work-tab.card.LCMC.title')}</b>
+                  <br/>
+                  {t('work-tab.card.LCMC.body')}
+                </h4> 
+                <p>{t('work-tab.card.LCMC.footer-year')}<span className="slashes">//</span>{t('work-tab.card.LCMC.footer-info')}</p> 
               </div>
             </a>
 
             <a className="card" href="https://github.com/LorenzoChiana/BikeSharing" target="_blank">
               <img src={bikesharing} alt="project-image" />
               <div className="txt-container">
-                <h4><b>BikeSharing</b><br />Website for the management of a hypothetical bike-sharing service. Developed on a MEAN stack.</h4> 
-                <p>2017 <span className="slashes">//</span> Angular / Node / SCSS / MongoDB</p> 
+                <h4>
+                  <b>{t('work-tab.card.bikesharing.title')}</b>
+                  <br />
+                  {t('work-tab.card.bikesharing.body')}
+                </h4> 
+                <p>{t('work-tab.card.bikesharing.footer-year')}<span className="slashes">//</span>{t('work-tab.card.bikesharing.footer-info')}</p> 
               </div>
             </a>
             
             <a className="card" href="https://github.com/LorenzoChiana/Vakcino" target="_blank">
               <img src={vaccine} alt="project-image" />
               <div className="txt-container">
-                <h4><b>Vakcino</b><br />Android application that allows the user to manage the vaccination record both for himself and for other family members.</h4> 
-                <p>2016 <span className="slashes">//</span> Android / Java / XML / SQL / MVC </p> 
+                <h4>
+                  <b>{t('work-tab.card.vakcino.title')}</b><br />
+                  {t('work-tab.card.vakcino.body')}
+                </h4> 
+                <p>{t('work-tab.card.vakcino.footer-year')}<span className="slashes">//</span>{t('work-tab.card.vakcino.footer-info')}</p> 
               </div>
             </a>
 
             <a className="card" href="https://github.com/LorenzoChiana/sol-project" target="_blank">
               <img src={sol} alt="project-image" />
               <div className="txt-container">
-                <h4><b>SOL restyle</b><br />Recreation of the home page of SOL platform (Studenti Online) of the University of Bologna to which was added the functionality of sharing notes and slides between students and professors.</h4> 
-                <p>2015 <span className="slashes">//</span> HTML / PHP / JavaScript / CSS / SQL</p> 
+                <h4>
+                  <b>{t('work-tab.card.sol.title')}</b><br />
+                  {t('work-tab.card.sol.body')}
+                </h4> 
+                <p>{t('work-tab.card.sol.footer-year')}<span className="slashes">//</span>{t('work-tab.card.sol.footer-info')}</p> 
               </div>
             </a>
 
             <a className="card" href="https://github.com/LorenzoChiana/FileMiner" target="_blank">
               <img src={filemanager} alt="project-image" />
               <div className="txt-container">
-                <h4><b>FileMiner</b><br />Creation of a file manager in Java with MVC pattern for the course of OOP (Object Oriented Programming).</h4> 
-                <p>2015 <span className="slashes">//</span> Java / MVC</p> 
+                <h4>
+                  <b>{t('work-tab.card.filemanager.title')}</b><br />
+                  {t('work-tab.card.filemanager.body')}
+                </h4> 
+                <p>{t('work-tab.card.filemanager.footer-year')}<span className="slashes">//</span>{t('work-tab.card.filemanager.footer-info')}</p> 
               </div>
             </a>
-            
             </div>
       </div>
     );
