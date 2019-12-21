@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "170ec8d943d199010c1b6e17b8ebb1e0",
+    "revision": "13509f07fb1f9a4573601286e432dfd0",
     "url": "/index.html"
   },
   {
-    "revision": "c33c6a2cfff15d42f781",
+    "revision": "d3e2b45b7406bc6238bd",
     "url": "/static/css/2.8271af8e.chunk.css"
   },
   {
-    "revision": "e3c24d1d801603358701",
-    "url": "/static/css/main.8b69fbdd.chunk.css"
+    "revision": "c4743179d9362b575c71",
+    "url": "/static/css/main.4c65ca5e.chunk.css"
   },
   {
-    "revision": "c33c6a2cfff15d42f781",
-    "url": "/static/js/2.ccbe674b.chunk.js"
+    "revision": "d3e2b45b7406bc6238bd",
+    "url": "/static/js/2.3de320e0.chunk.js"
   },
   {
-    "revision": "783efe56c297789f679b639c509e9a30",
-    "url": "/static/js/2.ccbe674b.chunk.js.LICENSE"
+    "revision": "4c5e35a8922a12a0264ff75cefb86b16",
+    "url": "/static/js/2.3de320e0.chunk.js.LICENSE"
   },
   {
-    "revision": "e3c24d1d801603358701",
-    "url": "/static/js/main.14eb563d.chunk.js"
+    "revision": "c4743179d9362b575c71",
+    "url": "/static/js/main.a6c1fb76.chunk.js"
   },
   {
-    "revision": "c9913191e565de632244",
-    "url": "/static/js/runtime-main.170f8412.js"
+    "revision": "00ccf1beb4d435cfbe60",
+    "url": "/static/js/runtime-main.c7cc6e23.js"
   },
   {
     "revision": "93df5ce9250439c313d3b6e309f83bfc",
@@ -68,8 +68,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/github.5a50d10f.png"
   },
   {
+    "revision": "f29553f08dfd5586612c6dbd681fafb3",
+    "url": "/static/media/itis.f29553f0.png"
+  },
+  {
     "revision": "82c7bf70e808c5dc60cacab8a6c618b0",
     "url": "/static/media/me.82c7bf70.jpg"
+  },
+  {
+    "revision": "e4b0a5fd0999fcead19154eef650558d",
+    "url": "/static/media/pizza.e4b0a5fd.png"
   },
   {
     "revision": "ac5be3490b36ea47f2ea77a82be6f0b8",
@@ -170,6 +178,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ebf6d1640ccddb99fb49f73c052c55a8",
     "url": "/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  {
+    "revision": "54ca7633b344b731597121f0c6253140",
+    "url": "/static/media/tea.54ca7633.png"
   },
   {
     "revision": "42ac54610a6cab8ace05678d4c3cd8d4",

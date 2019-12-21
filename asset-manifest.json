@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b69fbdd.chunk.css",
-    "main.js": "/static/js/main.14eb563d.chunk.js",
-    "main.js.map": "/static/js/main.14eb563d.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.170f8412.js",
-    "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
+    "main.css": "/static/css/main.4c65ca5e.chunk.css",
+    "main.js": "/static/js/main.a6c1fb76.chunk.js",
+    "main.js.map": "/static/js/main.a6c1fb76.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c7cc6e23.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c7cc6e23.js.map",
     "static/css/2.8271af8e.chunk.css": "/static/css/2.8271af8e.chunk.css",
-    "static/js/2.ccbe674b.chunk.js": "/static/js/2.ccbe674b.chunk.js",
-    "static/js/2.ccbe674b.chunk.js.map": "/static/js/2.ccbe674b.chunk.js.map",
+    "static/js/2.3de320e0.chunk.js": "/static/js/2.3de320e0.chunk.js",
+    "static/js/2.3de320e0.chunk.js.map": "/static/js/2.3de320e0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.559dc7ae955dfeb76b9f7dffc726b3c2.js": "/precache-manifest.559dc7ae955dfeb76b9f7dffc726b3c2.js",
+    "precache-manifest.a6db140c53ae2d6f41cfd0af59eb3fcb.js": "/precache-manifest.a6db140c53ae2d6f41cfd0af59eb3fcb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
-    "static/css/main.8b69fbdd.chunk.css.map": "/static/css/main.8b69fbdd.chunk.css.map",
-    "static/js/2.ccbe674b.chunk.js.LICENSE": "/static/js/2.ccbe674b.chunk.js.LICENSE",
+    "static/css/main.4c65ca5e.chunk.css.map": "/static/css/main.4c65ca5e.chunk.css.map",
+    "static/js/2.3de320e0.chunk.js.LICENSE": "/static/js/2.3de320e0.chunk.js.LICENSE",
     "static/media/BE.png": "/static/media/BE.93df5ce9.png",
     "static/media/CV_ChianaLorenzo.pdf": "/static/media/CV_ChianaLorenzo.3e4e2d3f.pdf",
     "static/media/UniBo-Universita-di-Bologna.png": "/static/media/UniBo-Universita-di-Bologna.23f858f1.png",
@@ -24,16 +24,19 @@
     "static/media/exams.jpg": "/static/media/exams.23cf80aa.jpg",
     "static/media/filemanager.jpg": "/static/media/filemanager.13e0e50c.jpg",
     "static/media/github.png": "/static/media/github.5a50d10f.png",
+    "static/media/itis.png": "/static/media/itis.f29553f0.png",
     "static/media/me.jpg": "/static/media/me.82c7bf70.jpg",
+    "static/media/pizza.png": "/static/media/pizza.e4b0a5fd.png",
     "static/media/portfolio.jpg": "/static/media/portfolio.ac5be349.jpg",
     "static/media/index.css": "/static/media/roboto-latin-900italic.ebf6d164.woff2",
+    "static/media/tea.png": "/static/media/tea.54ca7633.png",
     "static/media/vaccine.jpg": "/static/media/vaccine.42ac5461.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.170f8412.js",
+    "static/js/runtime-main.c7cc6e23.js",
     "static/css/2.8271af8e.chunk.css",
-    "static/js/2.ccbe674b.chunk.js",
-    "static/css/main.8b69fbdd.chunk.css",
-    "static/js/main.14eb563d.chunk.js"
+    "static/js/2.3de320e0.chunk.js",
+    "static/css/main.4c65ca5e.chunk.css",
+    "static/js/main.a6c1fb76.chunk.js"
   ]
 }
