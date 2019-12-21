@@ -15,6 +15,7 @@ import {
   setTranslations,
   setDefaultLanguage,
   setLanguage,
+  getLanguage,
   translate,
 } from 'react-switch-lang';
 import detectBrowserLanguage from 'detect-browser-language';
@@ -26,6 +27,9 @@ setTranslations({ en, it });
 setDefaultLanguage(detectBrowserLanguage() == "it-IT" ? "it" : "en");
 
 class App extends Component {
+    handleSetLanguage() {
+      setLanguage(getLanguage() == "it" ? "en" : "it");
+    };
     render() {
       const { t } = this.props;
       return (
@@ -83,6 +87,9 @@ class App extends Component {
                 </a>
                 <a href={PDF} target="blank">
                   <IoIosPaper />
+                </a>
+                <a onClick={this.handleSetLanguage.bind(this)}>
+                  <Icon.Globe />
                 </a>
               </div>
             <p></p>
