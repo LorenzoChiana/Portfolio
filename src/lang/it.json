@@ -4,12 +4,12 @@
         "subTitle": "Ingegnere Informatico Junior e Informatico Junior"
     },
     "about-tab": {
-        "description-r1": "My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.",
-        "description-r2": "I graduated from the bachelor of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) at the University of Bologna with a ",
-        "description-r3": " on hospital 4.0.",
-        "description-r4": "During my university career, I developed several projects (here my ",
-        "description-r5": ") ranging from web development to programming of embedded systems and IoT.",
-        "description-r6": "I am currently continuing my studies and I am attending the course of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here my ",
+        "description-r1": "Mi chiamo Lorenzo, sono nato nel 1995 e attualmente risiedo a Cesena.",
+        "description-r2": "Mi sono laureato in \"Ingegneria e Scienze Informatiche\" all'università di Bologna con una ",
+        "description-r3": " sull'ospedale 4.0.",
+        "description-r4": "Durante la mia carriera universitaria, ho sviluppato diversi progetti (qui il mio ",
+        "description-r5": ") che vanno dallo sviluppo web alla programmazione di sistemi embedded e IoT.",
+        "description-r6": "Attualmente sto proseguendo i miei studi e sto frequentando il corso magistrale di \"Ingegneria e Scienze Informatiche\" sempre presso l'Università di Bologna, specializzandomi in data science. Se sei interessato a scoprire di più su di me qui trovi il mio ",
         "sub-tab1": "Competenze Professionali",
         "sub-tab2": "Timeline",
         "timeline": {
@@ -95,7 +95,8 @@
     "about": "Su di me",
     "work": "Lavori",
     "thesis": "tesi",
-    "gh_repo": "GitHub repository",
+    "gh_repo": "repository GitHub",
     "cv": "Curriculum Vitae",
-    "contact_me": "Contattami"
+    "contact_me": "Contattami",
+    "lang": "Italiano"
 }

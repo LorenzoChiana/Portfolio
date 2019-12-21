@@ -4,6 +4,7 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
+import "./App.css";
 import ScrollUpButton from "react-scroll-up-button";
 import About from "./About";
 import Work from "./Work";
@@ -20,6 +21,8 @@ import {
 } from 'react-switch-lang';
 import detectBrowserLanguage from 'detect-browser-language';
 import PropTypes from 'prop-types';
+import itaFlag from './img/pizza.png';
+import engFlag from './img/tea.png';
 import en from './lang/en.json';
 import it from './lang/it.json';
 
@@ -60,9 +63,19 @@ class App extends Component {
 	            }
 	        } } />
             <div className="header">
+              <div>
+                <a className="lang desktop" onClick={this.handleSetLanguage.bind(this)}>
+                  {t('lang')}
+                  <img className="langIcon desktop" src={getLanguage() == "it" ?  itaFlag : engFlag} />
+                </a>
+              </div>
                 <div className="topheader">
                 <h1>{t('app.title')}</h1>
                 <p>{t('app.subTitle')}</p>
+                <a className="lang mobile" onClick={this.handleSetLanguage.bind(this)}>
+                  {t('lang')}
+                  <img className="langIcon mobile" src={getLanguage() == "it" ?  itaFlag : engFlag} />
+                </a>
                 </div>
                 <ul className="menu">
                   <li><NavLink exact to="/">{t('about')}</NavLink></li>
@@ -87,9 +100,6 @@ class App extends Component {
                 </a>
                 <a href={PDF} target="blank">
                   <IoIosPaper />
-                </a>
-                <a onClick={this.handleSetLanguage.bind(this)}>
-                  <Icon.Globe />
                 </a>
               </div>
             <p></p>
