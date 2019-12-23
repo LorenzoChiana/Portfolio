@@ -12,6 +12,17 @@
         "description-r6": "Attualmente sto proseguendo i miei studi e sto frequentando il corso magistrale di \"Ingegneria e Scienze Informatiche\" sempre presso l'Università di Bologna, specializzandomi in data science. Se sei interessato a scoprire di più su di me qui trovi il mio ",
         "sub-tab1": "Competenze Professionali",
         "sub-tab2": "Timeline",
+        "skills": {
+            "item1": "C Family",
+            "item2": "Java Family",
+            "item3": "Python",
+            "item4": "Sviluppo Web",
+            "item5": "Gitflow Workflow",
+            "item6": "Linux",
+            "item7": "Bash Scripting",
+            "item8": "Linguaggi di Markup",
+            "item9": "Analisi Dati"
+        },
         "timeline": {
             "date1": "Aprile 2013",
             "title1": "Alternanza scuola lavoro in BitLine sas",

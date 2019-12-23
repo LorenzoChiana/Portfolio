@@ -12,6 +12,17 @@
         "description-r6": "I am currently continuing my studies and I am attending the course of \"Ingegneria e Scienze Informatiche\" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here my ",
         "sub-tab1": "Professional Skills",
         "sub-tab2": "Timeline",
+        "skills": {
+            "item1": "C Family",
+            "item2": "Java Family",
+            "item3": "Python",
+            "item4": "Web Development",
+            "item5": "Gitflow Workflow",
+            "item6": "Linux",
+            "item7": "Bash Scripting",
+            "item8": "Markup languages",
+            "item9": "Data Analysis"
+        },
         "timeline": {
             "date1": "Apr 2013",
             "title1": "Internship in BitLine sas",
