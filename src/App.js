@@ -27,11 +27,11 @@ import en from './lang/en.json';
 import it from './lang/it.json';
 
 setTranslations({ en, it });
-setDefaultLanguage(detectBrowserLanguage() == "it-IT" ? "it" : "en");
+setDefaultLanguage(detectBrowserLanguage() === "it-IT" ? "it" : "en");
 
 class App extends Component {
     handleSetLanguage() {
-      setLanguage(getLanguage() == "it" ? "en" : "it");
+      setLanguage(getLanguage() === "it" ? "en" : "it");
     };
     render() {
       const { t } = this.props;
@@ -66,7 +66,7 @@ class App extends Component {
               <div>
                 <a className="lang desktop" onClick={this.handleSetLanguage.bind(this)}>
                   {t('lang')}
-                  <img className="langIcon desktop" src={getLanguage() == "it" ?  itaFlag : engFlag} />
+                  <img className="langIcon desktop" src={getLanguage() === "it" ?  itaFlag : engFlag} />
                 </a>
               </div>
                 <div className="topheader">
@@ -74,7 +74,7 @@ class App extends Component {
                 <p>{t('app.subTitle')}</p>
                 <a className="lang mobile" onClick={this.handleSetLanguage.bind(this)}>
                   {t('lang')}
-                  <img className="langIcon mobile" src={getLanguage() == "it" ?  itaFlag : engFlag} />
+                  <img className="langIcon mobile" src={getLanguage() === "it" ?  itaFlag : engFlag} />
                 </a>
                 </div>
                 <ul className="menu">

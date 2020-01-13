@@ -10,11 +10,10 @@ import unibo from './img/UniBo-Universita-di-Bologna.png';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
 import { IoIosPaper } from "react-icons/io";
 import { DiGoogleAnalytics } from "react-icons/di";
-import { FaJava, FaDatabase, FaCode, FaLinux, FaGit, FaPython, FaFile, FaTerminal, FaCodeBranch, FaJs, FaHtml5, FaPhp, FaSass, FaReact, FaCopyright } from "react-icons/fa";
+import { FaJava, FaCode, FaPython, FaFile, FaTerminal, FaCodeBranch, FaCopyright } from "react-icons/fa";
 import {
   setTranslations,
   setDefaultLanguage,
-  setLanguage,
   translate,
 } from 'react-switch-lang';
 import detectBrowserLanguage from 'detect-browser-language';
@@ -22,7 +21,7 @@ import en from './lang/en.json';
 import it from './lang/it.json';
 
 setTranslations({ en, it });
-setDefaultLanguage(detectBrowserLanguage() == "it-IT" ? "it" : "en");
+setDefaultLanguage(detectBrowserLanguage() === "it-IT" ? "it" : "en");
 
 class About extends Component {
   render() {
@@ -37,13 +36,13 @@ class About extends Component {
         <p className="desc">
         {t('about-tab.description-r1')}<br/>
         {t('about-tab.description-r2')}
-        <a href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="_blank">{t('thesis')}</a> 
+        <a href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="blank">{t('thesis')}</a> 
         {t('about-tab.description-r3')}<br/>
         {t('about-tab.description-r4')}
-        <a href="https://github.com/LorenzoChiana" target="_blank">{t("gh_repo")}</a>
+        <a href="https://github.com/LorenzoChiana" target="blank">{t("gh_repo")}</a>
         {t('about-tab.description-r5')}<br/>
         {t('about-tab.description-r6')}
-    <a href={PDF} target="_blank">{t("cv")}</a>.
+    <a href={PDF} target="blank">{t("cv")}</a>.
         </p>
             <div className="socialmedia">
                 <a href="mailto:lorenzo.chiana@gmail.com">
@@ -180,15 +179,15 @@ class About extends Component {
                         <p>
                           {t("about-tab.timeline.descr6_1")}
                         </p>
-                        <p>
+                        <p className="educational-activity">
                           {t("about-tab.timeline.descr6_2")} <br/>
-                          {t("about-tab.timeline.exam1")} &bull;<br/>
-                          {t("about-tab.timeline.exam2")} &bull;<br/>
-                          {t("about-tab.timeline.exam3")} &bull;<br/>
-                          {t("about-tab.timeline.exam4")} &bull;<br/>
-                          {t("about-tab.timeline.exam5")} &bull;<br/>
-                          {t("about-tab.timeline.exam6")} &bull;<br/>
-                          {t("about-tab.timeline.exam7")} &bull;
+                          {t("about-tab.timeline.exam1")} <br/>
+                          {t("about-tab.timeline.exam2")} <br/>
+                          {t("about-tab.timeline.exam3")} <br/>
+                          {t("about-tab.timeline.exam4")} <br/>
+                          {t("about-tab.timeline.exam5")} <br/>
+                          {t("about-tab.timeline.exam6")} <br/>
+                          {t("about-tab.timeline.exam7")} 
                         </p>
                         <a href="mailto:lorenzo.chiana@gmail.com">{t("contact_me")}</a>
                     </div>

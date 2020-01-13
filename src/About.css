@@ -274,6 +274,7 @@
     padding-left: 5em;
     line-height: 1.6;
   }
+  
   .timeline-centered>.timeline-item.period .timeline-content {
     float: none;
     padding: 0;
@@ -369,4 +370,5 @@
   .about .container.work-section .container-item, .contact-wrap .container-item {
     padding: 3em 0 0 0 !important;
   }
+
 }

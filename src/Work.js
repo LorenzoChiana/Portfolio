@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Work.css";
-import github from "./img/github.png";
+//import github from "./img/github.png";
 import bikesharing from "./img/bikesharing.jpg";
 import vaccine from "./img/vaccine.jpg";
 import filemanager from "./img/filemanager.jpg";
@@ -11,7 +11,6 @@ import code from "./img/code.jpg";
 import {
   setTranslations,
   setDefaultLanguage,
-  setLanguage,
   translate,
 } from 'react-switch-lang';
 import en from './lang/en.json';
@@ -19,7 +18,7 @@ import it from './lang/it.json';
 import detectBrowserLanguage from 'detect-browser-language';
 
 setTranslations({ en, it });
-setDefaultLanguage(detectBrowserLanguage() == "it-IT" ? "it" : "en");
+setDefaultLanguage(detectBrowserLanguage() === "it-IT" ? "it" : "en");
 
 class Work extends Component {
   render() {
@@ -28,7 +27,7 @@ class Work extends Component {
       <div className="work">
         <h2>{t('work-tab.title1')}</h2>
           <div className="container">
-            <a className="card" href="https://github.com/LorenzoChiana/portfolio" target="_blank">
+            <a className="card" href="https://github.com/LorenzoChiana/portfolio" target="blank">
               <img src={portfolio} alt="project-image" />
               <div className="txt-container">
                 <h4>
@@ -43,7 +42,7 @@ class Work extends Component {
         <h2>{t('work-tab.title2')}</h2>
             <div className="container">
 
-            <a className="card" href="https://github.com/LorenzoChiana/DSS19" target="_blank">
+            <a className="card" href="https://github.com/LorenzoChiana/DSS19" target="blank">
               <img src={dataanalysis} alt="project-image" />
               <div className="txt-container">
                 <h4>
@@ -55,7 +54,7 @@ class Work extends Component {
               </div>
             </a>
 
-            <a className="card" href="https://github.com/LorenzoChiana/LCMC1819" target="_blank">
+            <a className="card" href="https://github.com/LorenzoChiana/LCMC1819" target="blank">
               <img src={code} alt="project-image" />
               <div className="txt-container">
                 <h4>
@@ -67,7 +66,7 @@ class Work extends Component {
               </div>
             </a>
 
-            <a className="card" href="https://github.com/LorenzoChiana/BikeSharing" target="_blank">
+            <a className="card" href="https://github.com/LorenzoChiana/BikeSharing" target="blank">
               <img src={bikesharing} alt="project-image" />
               <div className="txt-container">
                 <h4>
@@ -79,7 +78,7 @@ class Work extends Component {
               </div>
             </a>
             
-            <a className="card" href="https://github.com/LorenzoChiana/Vakcino" target="_blank">
+            <a className="card" href="https://github.com/LorenzoChiana/Vakcino" target="blank">
               <img src={vaccine} alt="project-image" />
               <div className="txt-container">
                 <h4>
@@ -90,7 +89,7 @@ class Work extends Component {
               </div>
             </a>
 
-            <a className="card" href="https://github.com/LorenzoChiana/sol-project" target="_blank">
+            <a className="card" href="https://github.com/LorenzoChiana/sol-project" target="blank">
               <img src={sol} alt="project-image" />
               <div className="txt-container">
                 <h4>
@@ -101,7 +100,7 @@ class Work extends Component {
               </div>
             </a>
 
-            <a className="card" href="https://github.com/LorenzoChiana/FileMiner" target="_blank">
+            <a className="card" href="https://github.com/LorenzoChiana/FileMiner" target="blank">
               <img src={filemanager} alt="project-image" />
               <div className="txt-container">
                 <h4>
