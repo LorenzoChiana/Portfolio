@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.4c65ca5e.chunk.css",
-    "main.js": "/static/js/main.92adc2f8.chunk.js",
-    "main.js.map": "/static/js/main.92adc2f8.chunk.js.map",
+    "main.css": "/static/css/main.82773e6e.chunk.css",
+    "main.js": "/static/js/main.d03288ed.chunk.js",
+    "main.js.map": "/static/js/main.d03288ed.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c7cc6e23.js",
     "runtime-main.js.map": "/static/js/runtime-main.c7cc6e23.js.map",
     "static/css/2.8271af8e.chunk.css": "/static/css/2.8271af8e.chunk.css",
-    "static/js/2.8f79309b.chunk.js": "/static/js/2.8f79309b.chunk.js",
-    "static/js/2.8f79309b.chunk.js.map": "/static/js/2.8f79309b.chunk.js.map",
+    "static/js/2.f344e43d.chunk.js": "/static/js/2.f344e43d.chunk.js",
+    "static/js/2.f344e43d.chunk.js.map": "/static/js/2.f344e43d.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1770cad4685b1bf26892cd38c15db8c6.js": "/precache-manifest.1770cad4685b1bf26892cd38c15db8c6.js",
+    "precache-manifest.3751b7755bdf4efa5a9cae4494461421.js": "/precache-manifest.3751b7755bdf4efa5a9cae4494461421.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
-    "static/css/main.4c65ca5e.chunk.css.map": "/static/css/main.4c65ca5e.chunk.css.map",
-    "static/js/2.8f79309b.chunk.js.LICENSE": "/static/js/2.8f79309b.chunk.js.LICENSE",
+    "static/css/main.82773e6e.chunk.css.map": "/static/css/main.82773e6e.chunk.css.map",
+    "static/js/2.f344e43d.chunk.js.LICENSE": "/static/js/2.f344e43d.chunk.js.LICENSE",
     "static/media/BE.png": "/static/media/BE.93df5ce9.png",
     "static/media/CV_ChianaLorenzo.pdf": "/static/media/CV_ChianaLorenzo.3e4e2d3f.pdf",
     "static/media/UniBo-Universita-di-Bologna.png": "/static/media/UniBo-Universita-di-Bologna.23f858f1.png",
@@ -23,7 +23,6 @@
     "static/media/dataanalysis.jpg": "/static/media/dataanalysis.ac893d94.jpg",
     "static/media/exams.jpg": "/static/media/exams.23cf80aa.jpg",
     "static/media/filemanager.jpg": "/static/media/filemanager.13e0e50c.jpg",
-    "static/media/github.png": "/static/media/github.5a50d10f.png",
     "static/media/itis.png": "/static/media/itis.f29553f0.png",
     "static/media/me.jpg": "/static/media/me.82c7bf70.jpg",
     "static/media/pizza.png": "/static/media/pizza.e4b0a5fd.png",
@@ -35,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.c7cc6e23.js",
     "static/css/2.8271af8e.chunk.css",
-    "static/js/2.8f79309b.chunk.js",
-    "static/css/main.4c65ca5e.chunk.css",
-    "static/js/main.92adc2f8.chunk.js"
+    "static/js/2.f344e43d.chunk.js",
+    "static/css/main.82773e6e.chunk.css",
+    "static/js/main.d03288ed.chunk.js"
   ]
 }
