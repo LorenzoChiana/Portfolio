@@ -5,7 +5,7 @@ import {
   HashRouter
 } from "react-router-dom";
 import "./App.css";
-import ScrollUpButton from "react-scroll-up-button";
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button";
 import About from "./About";
 import Work from "./Work";
 import * as Icon from 'react-feather';
