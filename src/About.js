@@ -177,7 +177,19 @@ class About extends Component {
                     <div className="timeline-marker"></div>
                     <div className="timeline-content">
                         <h3 className="timeline-title">{t("about-tab.timeline.title6")}</h3>
-                        <p>{t("about-tab.timeline.descr6_1")}</p>
+                        <p>
+                          {t("about-tab.timeline.descr6_1")}
+                        </p>
+                        <p>
+                          {t("about-tab.timeline.descr6_2")} <br/>
+                          {t("about-tab.timeline.exam1")} &bull;<br/>
+                          {t("about-tab.timeline.exam2")} &bull;<br/>
+                          {t("about-tab.timeline.exam3")} &bull;<br/>
+                          {t("about-tab.timeline.exam4")} &bull;<br/>
+                          {t("about-tab.timeline.exam5")} &bull;<br/>
+                          {t("about-tab.timeline.exam6")} &bull;<br/>
+                          {t("about-tab.timeline.exam7")} &bull;
+                        </p>
                         <a href="mailto:lorenzo.chiana@gmail.com">{t("contact_me")}</a>
                     </div>
                 </li>

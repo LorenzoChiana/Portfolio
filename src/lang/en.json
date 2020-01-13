@@ -52,7 +52,15 @@
             "date6": "Current",
             "title6": "Student at UNIBO",
             "descr6_1": "Currently, I'm studying computer science at the master's degree course in UNIBO",
-            "descr6_2": ""
+            "descr6_2": "Educational activity:",
+            "exam1": "Languages, compilers and computational models",
+            "exam2": "Machine learning",
+            "exam3": "Distributed systems",
+            "exam4": "Network security",
+            "exam5": "Information systems",
+            "exam6": "Web applications and services",
+            "exam7": "Decision support systems",
+            "exam8": ""
         }
     },
     "work-tab": {
