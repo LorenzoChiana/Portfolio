@@ -53,14 +53,14 @@
             "title6": "Studente in UNIBO",
             "descr6_1": "In questo momento sto studiando al corso magistrale di Ingegneria e Scienze informatiche.",
             "descr6_2": "Attività formativa:",
-            "exam1": "Linguaggi, compilatori e modelli computazionali;",
-            "exam2": "Machine learning;",
-            "exam3": "Sistemi distribuiti;",
-            "exam4": "Sicurezza delle reti;",
-            "exam5": "Sistemi informativi;",
-            "exam6": "Applicazioni e servizi web;",
-            "exam7": "Sistemi di supporto alle decisioni.",
-            "exam8": ""
+            "exam1": "Linguaggi, compilatori e modelli computazionali",
+            "exam2": "Machine learning",
+            "exam3": "Sistemi distribuiti",
+            "exam4": "Sicurezza delle reti",
+            "exam5": "Sistemi informativi",
+            "exam6": "Applicazioni e servizi web",
+            "exam7": "Sistemi di supporto alle decisioni",
+            "exam8": "Business intelligence"
         }
     },
     "work-tab": {

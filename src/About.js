@@ -26,6 +26,8 @@ setDefaultLanguage(detectBrowserLanguage() === "it-IT" ? "it" : "en");
 class About extends Component {
   render() {
     const { t } = this.props;
+    var courses = [t("about-tab.timeline.exam1"), t("about-tab.timeline.exam2"), t("about-tab.timeline.exam3"), t("about-tab.timeline.exam4"), t("about-tab.timeline.exam5"), t("about-tab.timeline.exam6"), t("about-tab.timeline.exam7"), t("about-tab.timeline.exam8")];
+    courses.sort().join("\n");
     return (
       <div className="about">
         <div className="flex-grid-thirds">
@@ -180,14 +182,15 @@ class About extends Component {
                           {t("about-tab.timeline.descr6_1")}
                         </p>
                         <p className="educational-activity">
-                          {t("about-tab.timeline.descr6_2")} <br/>
-                          {t("about-tab.timeline.exam1")} <br/>
-                          {t("about-tab.timeline.exam2")} <br/>
-                          {t("about-tab.timeline.exam3")} <br/>
-                          {t("about-tab.timeline.exam4")} <br/>
-                          {t("about-tab.timeline.exam5")} <br/>
-                          {t("about-tab.timeline.exam6")} <br/>
-                          {t("about-tab.timeline.exam7")} 
+                          {t("about-tab.timeline.descr6_2")}<br/>
+                          &emsp;{courses[0]}&emsp;<br/>
+                          &emsp;{courses[1]}&emsp;<br/>
+                          &emsp;{courses[2]}&emsp;<br/>
+                          &emsp;{courses[3]}&emsp;<br/>
+                          &emsp;{courses[4]}&emsp;<br/>
+                          &emsp;{courses[5]}&emsp;<br/>
+                          &emsp;{courses[6]}&emsp;<br/>
+                          &emsp;{courses[7]}&emsp;<br/>
                         </p>
                         <a href="mailto:lorenzo.chiana@gmail.com">{t("contact_me")}</a>
                     </div>
