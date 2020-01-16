@@ -10,7 +10,7 @@ import unibo from './img/UniBo-Universita-di-Bologna.png';
 import PDF from './doc/CV_ChianaLorenzo.pdf';
 import { IoIosPaper } from "react-icons/io";
 import { DiGoogleAnalytics } from "react-icons/di";
-import { FaJava, FaCode, FaPython, FaFile, FaTerminal, FaCodeBranch, FaCopyright } from "react-icons/fa";
+import { FaJava, FaCode, FaTerminal, FaCodeBranch, FaCopyright } from "react-icons/fa";
 import {
   setTranslations,
   setDefaultLanguage,
@@ -77,11 +77,6 @@ class About extends Component {
             <p></p>
           </div>
           <div className="container-item">
-            <FaPython />
-            <h2>{t('about-tab.skills.item3')}</h2>
-            <p></p>
-          </div>
-          <div className="container-item">
             <DiGoogleAnalytics />
             <h2>{t('about-tab.skills.item9')}</h2>
             <p></p>
@@ -99,11 +94,6 @@ class About extends Component {
           <div className="container-item">
             <FaTerminal />
             <h2>{t('about-tab.skills.item7')}</h2>
-            <p></p>
-          </div>
-          <div className="container-item">
-            <FaFile />
-            <h2>{t('about-tab.skills.item8')}</h2>
             <p></p>
           </div>
         </div>
