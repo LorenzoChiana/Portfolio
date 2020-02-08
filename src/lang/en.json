@@ -111,11 +111,13 @@
             }
         }
     },
-    "about": "About",
+    "about": "About me",
     "work": "Work",
     "thesis": "thesis",
     "gh_repo": "GitHub repository",
     "cv": "Curriculum Vitae",
     "contact_me": "Contact me",
-    "lang": "English"
+    "lang": "English",
+    "cookie-consent": "This website uses cookies to enhance the user experience.",
+    "cookie-button": "I understand"
 }

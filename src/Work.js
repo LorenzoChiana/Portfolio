@@ -9,16 +9,8 @@ import portfolio from "./img/portfolio.jpg";
 import dataanalysis from "./img/dataanalysis.jpg";
 import code from "./img/code.jpg";
 import {
-  setTranslations,
-  setDefaultLanguage,
-  translate,
+  translate
 } from 'react-switch-lang';
-import en from './lang/en.json';
-import it from './lang/it.json';
-import detectBrowserLanguage from 'detect-browser-language';
-
-setTranslations({ en, it });
-setDefaultLanguage(detectBrowserLanguage() === "it-IT" ? "it" : "en");
 
 class Work extends Component {
   render() {

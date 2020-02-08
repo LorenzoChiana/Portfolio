@@ -4,8 +4,8 @@
         "subTitle": "Ingegnere Informatico Junior e Informatico Junior"
     },
     "about-tab": {
-        "description-r1": "Mi chiamo Lorenzo, sono nato nel 1995 e attualmente risiedo a Cesena.",
-        "description-r2": "Mi sono laureato in \"Ingegneria e Scienze Informatiche\" all'università di Bologna con una ",
+        "description-r1": "Mi chiamo Lorenzo, classe 1995 e attualmente risiedo a Cesena.",
+        "description-r2": "Ho conseguito la laurea in \"Ingegneria e Scienze Informatiche\" all'università di Bologna con una ",
         "description-r3": " sull'ospedale 4.0.",
         "description-r4": "Durante la mia carriera universitaria, ho sviluppato diversi progetti (qui il mio ",
         "description-r5": ") che vanno dallo sviluppo web alla programmazione di sistemi embedded e IoT.",
@@ -117,5 +117,7 @@
     "gh_repo": "repository GitHub",
     "cv": "Curriculum Vitae",
     "contact_me": "Contattami",
-    "lang": "Italiano"
+    "lang": "Italiano",
+    "cookie-consent": "Questo sito fa uso di cookie per migliorare l'esperienza utente.",
+    "cookie-button": "Ho capito"
 }

@@ -12,16 +12,8 @@ import { IoIosPaper } from "react-icons/io";
 import { DiGoogleAnalytics } from "react-icons/di";
 import { FaJava, FaCode, FaTerminal, FaCodeBranch, FaCopyright } from "react-icons/fa";
 import {
-  setTranslations,
-  setDefaultLanguage,
-  translate,
+  translate
 } from 'react-switch-lang';
-import detectBrowserLanguage from 'detect-browser-language';
-import en from './lang/en.json';
-import it from './lang/it.json';
-
-setTranslations({ en, it });
-setDefaultLanguage(detectBrowserLanguage() === "it-IT" ? "it" : "en");
 
 class About extends Component {
   render() {

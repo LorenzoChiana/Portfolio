@@ -16,10 +16,12 @@ import {
   setTranslations,
   setDefaultLanguage,
   setLanguage,
+  setLanguageCookie,
   getLanguage,
   translate,
 } from 'react-switch-lang';
 import detectBrowserLanguage from 'detect-browser-language';
+import CookieConsent from "react-cookie-consent";
 import PropTypes from 'prop-types';
 import itaFlag from './img/pizza.png';
 import engFlag from './img/tea.png';
@@ -27,7 +29,8 @@ import en from './lang/en.json';
 import it from './lang/it.json';
 
 setTranslations({ en, it });
-setDefaultLanguage(detectBrowserLanguage() === "it-IT" ? "it" : "en");
+setLanguageCookie(detectBrowserLanguage() === "it-IT" ? "it" : "en");
+setDefaultLanguage(getLanguage());
 
 class App extends Component {
     handleSetLanguage() {
@@ -106,6 +109,13 @@ class App extends Component {
           </div>
           </div>
           <ScrollUpButton />
+          <CookieConsent
+            buttonText={t('cookie-button')}
+            style={{ background: "linear-gradient(to right, #434343, #000000)" }}
+            buttonStyle={{ color: "#000000", background: "#FFFFFF"}}
+          >
+            {t('cookie-consent')}
+          </CookieConsent>
         </HashRouter>
       );
     }
