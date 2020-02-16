@@ -65,6 +65,14 @@ class App extends Component {
 	             }
 	            }
 	        } } />
+          <CookieConsent
+            buttonText={t('cookie-button')}
+            style={{ background: "linear-gradient(to right, #434343, #000000)" }}
+            buttonStyle={{ color: "#000000", background: "#FFFFFF"}}
+            acceptOnScroll={true}
+          >
+            {t('cookie-consent')}
+          </CookieConsent>
             <div className="header">
               <div>
                 <a className="lang desktop" onClick={this.handleSetLanguage.bind(this)}>
@@ -109,13 +117,6 @@ class App extends Component {
           </div>
           </div>
           <ScrollUpButton />
-          <CookieConsent
-            buttonText={t('cookie-button')}
-            style={{ background: "linear-gradient(to right, #434343, #000000)" }}
-            buttonStyle={{ color: "#000000", background: "#FFFFFF"}}
-          >
-            {t('cookie-consent')}
-          </CookieConsent>
         </HashRouter>
       );
     }
