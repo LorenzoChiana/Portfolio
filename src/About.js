@@ -18,7 +18,7 @@ import {
 class About extends Component {
   render() {
     const { t } = this.props;
-    var courses = [t("about-tab.timeline.exam1"), t("about-tab.timeline.exam2"), t("about-tab.timeline.exam3"), t("about-tab.timeline.exam4"), t("about-tab.timeline.exam5"), t("about-tab.timeline.exam6"), t("about-tab.timeline.exam7"), t("about-tab.timeline.exam8")];
+    var courses = [t("about-tab.timeline.exam1"), t("about-tab.timeline.exam2"), t("about-tab.timeline.exam3"), t("about-tab.timeline.exam4"), t("about-tab.timeline.exam5"), t("about-tab.timeline.exam6"), t("about-tab.timeline.exam7"), t("about-tab.timeline.exam8"), t("about-tab.timeline.exam9")];
     courses.sort().join("\n");
     return (
       <div className="about">
@@ -173,6 +173,7 @@ class About extends Component {
                           &emsp;{courses[5]}&emsp;<br/>
                           &emsp;{courses[6]}&emsp;<br/>
                           &emsp;{courses[7]}&emsp;<br/>
+                          &emsp;{courses[8]}&emsp;<br/>
                         </p>
                         <a href="mailto:lorenzo.chiana@gmail.com">{t("contact_me")}</a>
                     </div>
