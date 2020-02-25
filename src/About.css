@@ -76,6 +76,18 @@
   text-align: center;
 }
 
+h1 {
+  font-weight: bold;
+}
+
+.timeline-info span {
+  font-weight: bold;
+}
+
+.timeline-title {
+  font-weight: bold;
+}
+
 .example-header h1 {
   color: #FFF;
   font-weight: 300;
@@ -292,6 +304,9 @@
   .timeline-centered .period .timeline-title {
     left: auto;
   }
+  .educational-activity li {
+    direction:rtl;
+  }
 }
 
 .marker-outline .timeline-marker:before {
@@ -370,5 +385,4 @@
   .about .container.work-section .container-item, .contact-wrap .container-item {
     padding: 3em 0 0 0 !important;
   }
-
 }

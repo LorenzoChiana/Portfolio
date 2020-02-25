@@ -55,7 +55,7 @@ class About extends Component {
         </div>
       </div>
       <div className="col-md-12 example-title">
-        <h2>{t("about-tab.sub-tab1")}</h2>
+        <h1>{t("about-tab.sub-tab1")}</h1>
       </div>
         <div className="container">
           <div className="container-item">
@@ -91,7 +91,7 @@ class About extends Component {
         </div>
       <div className="row example-centered">
         <div className="col-md-12 example-title">
-            <h2>{t("about-tab.sub-tab2")}</h2>
+            <h1>{t("about-tab.sub-tab2")}</h1>
         </div>
         <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <ul className="timeline timeline-centered">
@@ -163,19 +163,38 @@ class About extends Component {
                         <p>
                           {t("about-tab.timeline.descr6_1")}
                         </p>
-                        <p className="educational-activity">
-                          {t("about-tab.timeline.descr6_2")}<br/>
-                          &emsp;{courses[0]}&emsp;<br/>
-                          &emsp;{courses[1]}&emsp;<br/>
-                          &emsp;{courses[2]}&emsp;<br/>
-                          &emsp;{courses[3]}&emsp;<br/>
-                          &emsp;{courses[4]}&emsp;<br/>
-                          &emsp;{courses[5]}&emsp;<br/>
-                          &emsp;{courses[6]}&emsp;<br/>
-                          &emsp;{courses[7]}&emsp;<br/>
-                          &emsp;{courses[8]}&emsp;<br/>
+                        <p>
+                          {t("about-tab.timeline.descr6_2")}
                         </p>
-                        <a href="mailto:lorenzo.chiana@gmail.com">{t("contact_me")}</a>
+                          <ul className="educational-activity">
+                            <li>
+                              {courses[0]}
+                            </li>
+                            <li>
+                              {courses[1]}
+                            </li>
+                            <li>
+                              {courses[2]}
+                            </li>
+                            <li>
+                              {courses[3]}
+                            </li>
+                            <li>
+                              {courses[4]}
+                            </li>
+                            <li>
+                              {courses[5]}
+                            </li>
+                            <li>
+                              {courses[6]}
+                            </li>
+                            <li>
+                              {courses[7]}
+                            </li>
+                            <li>
+                              {courses[8]}
+                            </li>
+                          </ul>
                     </div>
                 </li>
             </ul>

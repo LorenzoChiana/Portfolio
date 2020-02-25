@@ -1,4 +1,4 @@
-.work h2 {
+.work h1 {
     text-align: center;
     padding: 1em !important;
 }
@@ -53,7 +53,7 @@
 }
 
 @media (max-width:768) {
-    .work h2 {
+    .work h1 {
         padding: 3em 1em 1em 1em !important;
     }
 }
