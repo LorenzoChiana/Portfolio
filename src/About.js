@@ -55,43 +55,43 @@ class About extends Component {
         </div>
       </div>
       <div className="col-md-12 example-title">
-        <h1>{t("about-tab.sub-tab1")}</h1>
+        <h2>{t("about-tab.sub-tab1")}</h2>
       </div>
         <div className="container">
           <div className="container-item">
             <FaCopyright />
-              <h2>{t('about-tab.skills.item1')}</h2>
+              <h3>{t('about-tab.skills.item1')}</h3>
             <p></p>
           </div>
           <div className="container-item">
             <FaJava />
-            <h2>{t('about-tab.skills.item2')}</h2>
+            <h3>{t('about-tab.skills.item2')}</h3>
             <p></p>
           </div>
           <div className="container-item">
             <DiGoogleAnalytics />
-            <h2>{t('about-tab.skills.item9')}</h2>
+            <h3>{t('about-tab.skills.item9')}</h3>
             <p></p>
           </div>
           <div className="container-item">
             <FaCode />
-            <h2>{t('about-tab.skills.item4')}</h2>
+            <h3>{t('about-tab.skills.item4')}</h3>
             <p></p>
           </div>
           <div className="container-item">
             <FaCodeBranch />
-            <h2>{t('about-tab.skills.item5')}</h2>
+            <h3>{t('about-tab.skills.item5')}</h3>
             <p></p>
           </div>
           <div className="container-item">
             <FaTerminal />
-            <h2>{t('about-tab.skills.item7')}</h2>
+            <h3>{t('about-tab.skills.item7')}</h3>
             <p></p>
           </div>
         </div>
       <div className="row example-centered">
         <div className="col-md-12 example-title">
-            <h1>{t("about-tab.sub-tab2")}</h1>
+            <h2>{t("about-tab.sub-tab2")}</h2>
         </div>
         <div className="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <ul className="timeline timeline-centered">

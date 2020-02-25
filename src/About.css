@@ -76,10 +76,6 @@
   text-align: center;
 }
 
-h1 {
-  font-weight: bold;
-}
-
 .timeline-info span {
   font-weight: bold;
 }
@@ -321,11 +317,10 @@ h1 {
 .about .container-item svg {
   display: block;
   margin: 1em auto;
-  width: 5em;
-  height: 5em;
-  stroke-width: .5;
+  width: 4em;
+  height: 4em;
+  stroke-width: .4;
   padding: 2em;
-  transition: 1s;
 }
 
 .about .container {

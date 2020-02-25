@@ -17,7 +17,7 @@ class Work extends Component {
     const { t } = this.props;
     return (
       <div className="work">
-        <h1>{t('work-tab.title1')}</h1>
+        <h2>{t('work-tab.title1')}</h2>
           <div className="container">
             <a className="card" href="https://github.com/LorenzoChiana/portfolio" target="blank">
               <img src={portfolio} alt="project-image" />
@@ -31,7 +31,7 @@ class Work extends Component {
               </div>
             </a> 
         </div>
-        <h1>{t('work-tab.title2')}</h1>
+        <h2>{t('work-tab.title2')}</h2>
             <div className="container">
 
             <a className="card" href="https://github.com/LorenzoChiana/DSS19" target="blank">
