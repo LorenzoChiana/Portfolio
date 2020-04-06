@@ -10,7 +10,7 @@ import About from "./About";
 import Work from "./Work";
 import * as Icon from 'react-feather';
 import Particles from 'react-particles-js';
-import PDF from './doc/CV_ChianaLorenzo.pdf';
+import PDF from './doc/CV_ChianaLorenzo_en.pdf';
 import { IoIosPaper } from "react-icons/io";
 import {
   setTranslations,

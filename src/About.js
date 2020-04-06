@@ -7,7 +7,7 @@ import bitline from './img/bitline.png';
 import beinfrastrutture from './img/BE.png';
 import cosmobile from './img/cosmobile.png';
 import unibo from './img/UniBo-Universita-di-Bologna.png';
-import PDF from './doc/CV_ChianaLorenzo.pdf';
+import PDF from './doc/CV_ChianaLorenzo_en.pdf';
 import { IoIosPaper } from "react-icons/io";
 import { DiGoogleAnalytics } from "react-icons/di";
 import { FaJava, FaCode, FaTerminal, FaCodeBranch, FaCopyright } from "react-icons/fa";
