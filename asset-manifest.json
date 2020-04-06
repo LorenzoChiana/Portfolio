@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.49acbc8c.chunk.css",
-    "main.js": "/static/js/main.2fceb792.chunk.js",
-    "main.js.map": "/static/js/main.2fceb792.chunk.js.map",
+    "main.js": "/static/js/main.a76d0419.chunk.js",
+    "main.js.map": "/static/js/main.a76d0419.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c7cc6e23.js",
     "runtime-main.js.map": "/static/js/runtime-main.c7cc6e23.js.map",
     "static/css/2.8271af8e.chunk.css": "/static/css/2.8271af8e.chunk.css",
     "static/js/2.9e3d0e75.chunk.js": "/static/js/2.9e3d0e75.chunk.js",
     "static/js/2.9e3d0e75.chunk.js.map": "/static/js/2.9e3d0e75.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4de7a23642e3e19265af0574957ce79d.js": "/precache-manifest.4de7a23642e3e19265af0574957ce79d.js",
+    "precache-manifest.8a72391181d45b833938e680ee8df505.js": "/precache-manifest.8a72391181d45b833938e680ee8df505.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8271af8e.chunk.css.map": "/static/css/2.8271af8e.chunk.css.map",
     "static/css/main.49acbc8c.chunk.css.map": "/static/css/main.49acbc8c.chunk.css.map",
     "static/js/2.9e3d0e75.chunk.js.LICENSE": "/static/js/2.9e3d0e75.chunk.js.LICENSE",
     "static/media/BE.png": "/static/media/BE.93df5ce9.png",
-    "static/media/CV_ChianaLorenzo.pdf": "/static/media/CV_ChianaLorenzo.3e4e2d3f.pdf",
+    "static/media/CV_ChianaLorenzo_en.pdf": "/static/media/CV_ChianaLorenzo_en.2cd01351.pdf",
     "static/media/UniBo-Universita-di-Bologna.png": "/static/media/UniBo-Universita-di-Bologna.23f858f1.png",
     "static/media/About.css": "/static/media/work.1257def8.jpg",
     "static/media/bikesharing.jpg": "/static/media/bikesharing.aee0039e.jpg",
@@ -36,6 +36,6 @@
     "static/css/2.8271af8e.chunk.css",
     "static/js/2.9e3d0e75.chunk.js",
     "static/css/main.49acbc8c.chunk.css",
-    "static/js/main.2fceb792.chunk.js"
+    "static/js/main.a76d0419.chunk.js"
   ]
 }
