@@ -18,7 +18,7 @@ import {
 class About extends Component {
   render() {
     const { t } = this.props;
-    var courses = [t("about-tab.timeline.exam1"), t("about-tab.timeline.exam2"), t("about-tab.timeline.exam3"), t("about-tab.timeline.exam4"), t("about-tab.timeline.exam5"), t("about-tab.timeline.exam6"), t("about-tab.timeline.exam7"), t("about-tab.timeline.exam8"), t("about-tab.timeline.exam9")];
+    var courses = [t("about-tab.timeline.exam1"), t("about-tab.timeline.exam2"), t("about-tab.timeline.exam3"), t("about-tab.timeline.exam4"), t("about-tab.timeline.exam5"), t("about-tab.timeline.exam6"), t("about-tab.timeline.exam7"), t("about-tab.timeline.exam8"), t("about-tab.timeline.exam9"), t("about-tab.timeline.exam10")];
     courses.sort().join("\n");
     return (
       <div className="about">
@@ -193,6 +193,9 @@ class About extends Component {
                             </li>
                             <li>
                               {courses[8]}
+                            </li>
+                            <li>
+                              {courses[9]}
                             </li>
                           </ul>
                     </div>
