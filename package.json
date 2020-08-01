@@ -1,11 +1,8 @@
 {
-  "name": "portfolio-website",
+  "name": "portfolio",
   "version": "0.4.0",
-  "homepage": "https://codyb.co",
-  "description": "Portfolio site for Cody Bennett",
-  "repository": "https://github.com/CodyJasonBennett/portfolio-website.git",
-  "author": "Cody Bennett <hi@codyb.co>",
-  "license": "MIT",
+  "homepage": "https://lorenzochiana.com",
+  "repository": "https://github.com/LorenzoChiana/portfolio.git",
   "devDependencies": {
     "@storybook/addon-a11y": "^5.3.19",
     "@storybook/addon-actions": "^5.3.19",
@@ -15,6 +12,7 @@
     "babel-loader": "^8.1.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
+    "gh-pages": "^3.1.0",
     "mdx-loader": "^3.0.2",
     "prettier": "^2.0.5",
     "react-scripts": "3.4.1",
