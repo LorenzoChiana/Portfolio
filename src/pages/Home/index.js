@@ -230,7 +230,7 @@ export default function Home(props) {
         buttonText="View Project"
         buttonLink="https://github.com/LorenzoChiana/Vakcino"
         model={{
-          type: 'laptop',
+          type: 'phone',
           alt: 'MystGang Website',
           textures: [
             {
