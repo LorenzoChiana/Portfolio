@@ -38,18 +38,12 @@
     "three": "^0.118.3"
   },
   "scripts": {
-    "start": "set PORT=80 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "build-storybook": "build-storybook -o build-storybook",
-    "postbuild": "react-snap",
-    "deploy": "firebase deploy --only hosting:portfolio",
-    "deploy-functions": "firebase deploy --only functions",
-    "deploy-storybook": "firebase deploy --only hosting:storybook",
-    "serve": "firebase serve --only hosting",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 9009 -s public",
-    "analyze": "source-map-explorer 'build/static/js/*.js'"
+    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "eject": "react-scripts eject"
   },
   "reactSnap": {
     "skipThirdPartyRequests": true,
