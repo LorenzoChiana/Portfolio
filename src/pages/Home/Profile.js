@@ -24,18 +24,22 @@ const ProfileText = ({ status, titleId }) => (
       <DecoderText text="Hi" start={status !== 'exited'} delay={500} />
     </h2>
     <p className={classNames('profile__description', `profile__description--${status}`)}>
-      I’m Cody. Currently, I am based in Austin, working as the lead designer at{' '}
-      <Anchor as={Link} to="/projects/dtt">
-        DevTechTools
+    My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.
+    I graduated from the bachelor of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) at the University of Bologna with a {' '}
+      <Anchor href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="_blank">
+        thesis
       </Anchor>
-      . I am a designer, full-stack developer, and creator of web & mobile solutions with a focus on motion and user experience.
-    </p>
-    <p className={classNames('profile__description', `profile__description--${status}`)}>
-      In my spare time, I like to play guitar and{' '}
-      <Anchor href="https://codepen.codyb.co" target="_blank">
-        experiment with new tech
+    on hospital 4.0.
+    During my university career, I developed several projects (here is my {' '}
+      <Anchor href="https://github.com/LorenzoChiana" target="_blank">
+        GitHub repository
       </Anchor>
-      . I’m always interested in new projects, so feel free to drop me a line.
+    ) ranging from web development to programming of embedded systems and IoT.
+    I am currently continuing my studies and I am attending the course of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here is my {' '}
+      <Anchor href="/doc/CV_ChianaLorenzo_en.pdf" target="_blank">
+        Curriculum Vitae
+      </Anchor>
+    .
     </p>
   </Fragment>
 );

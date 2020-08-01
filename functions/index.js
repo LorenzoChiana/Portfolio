@@ -22,7 +22,7 @@ const MAX_MESSAGE_LENGTH = 4096;
 admin.initializeApp();
 app.use(helmet());
 app.use(express.json());
-app.use(cors({ origin: 'https://codyb.co' }));
+app.use(cors({ origin: 'https://lorenzochiana.com' }));
 
 app.post('/functions/sendMessage', async (req, res) => {
   try {
@@ -53,7 +53,7 @@ app.post('/functions/sendMessage', async (req, res) => {
 function sendMail(email, message) {
   const mailOptions = {
     from: `Portfolio <${gmailEmail}>`,
-    to: 'hi@codyb.co',
+    to: 'lorenzo.chiana@gmail.com',
     subject: `New message from ${email}`,
     text: `From: ${email}\n\n${message}`,
   };
@@ -63,10 +63,6 @@ function sendMail(email, message) {
 
 exports.sendMail = functions.database.ref('/messages/{messageID}').onCreate(snapshot => {
   const { email, message } = snapshot.val();
-
-  if (email === 'test@test.test') {
-    snapshot.ref.set(null);
-  }
 
   return sendMail(email, message);
 });

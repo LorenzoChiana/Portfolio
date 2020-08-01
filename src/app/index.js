@@ -11,7 +11,6 @@ import GothamBook from 'assets/fonts/gotham-book.woff2';
 import GothamMedium from 'assets/fonts/gotham-medium.woff2';
 import { initialState, reducer } from 'app/reducer';
 import { reflow } from 'utils/transition';
-import prerender from 'utils/prerender';
 import './index.css';
 
 const Home = lazy(() => import('pages/Home'));
@@ -24,8 +23,6 @@ const Page404 = lazy(() => import('pages/404'));
 
 export const AppContext = createContext();
 export const TransitionContext = createContext();
-
-const repoPrompt = `\u00A9 2018-${new Date().getFullYear()} Cody Bennett\n\nCheck out the source code: https://github.com/CodyJasonBennett/portfolio-website`;
 
 export const fontStyles = `
   @font-face {
@@ -57,10 +54,6 @@ const App = () => {
   }, [prefersReducedMotion]);
 
   useEffect(() => {
-    if (!prerender) {
-      console.info(`${repoPrompt}\n\n`);
-    }
-
     window.history.scrollRestoration = 'manual';
   }, []);
 

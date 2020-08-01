@@ -5,9 +5,9 @@ export const navLinks = [
     hash: '#about',
   },
   {
-    label: 'Timeline',
+    label: 'TimeLine',
     pathname: '/',
-    hash: '#timeline'
+    hash: '#timeline',
   },
   {
     label: 'Projects',
@@ -23,7 +23,7 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: 'LinkedIn',
-    url: 'https://it.linkedin.com/in/lorenzo-chiana-a12210140',
+    url: 'https://www.linkedin.com/in/lorenzo-chiana-a12210140/',
     icon: 'linkedin',
   },
   {

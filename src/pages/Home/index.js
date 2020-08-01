@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import Intro from './Intro';
 import ProjectSummary from './ProjectSummary';
 import Profile from './Profile';
+import LifeTimeLine from './LifeTimeLine';
 import Footer from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
 import modernTexture from 'assets/modern.jpg';
@@ -27,14 +28,15 @@ export default function Home(props) {
   const [visibleSections, setVisibleSections] = useState([]);
   const [scrollIndicatorHidden, setScrollIndicatorHidden] = useState(false);
   const intro = useRef();
+  const about = useRef();
+  const timeline = useRef();
   const projectOne = useRef();
   const projectTwo = useRef();
   const projectThree = useRef();
-  const about = useRef();
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const revealSections = [intro, projectOne, projectTwo, projectThree, about];
+    const revealSections = [intro, about, timeline, projectOne, projectTwo, projectThree];
 
     const sectionObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
@@ -71,7 +73,7 @@ export default function Home(props) {
 
     const handleHashchange = (hash, scroll) => {
       clearTimeout(scrollTimeout);
-      const hashSections = [intro, projectOne, projectTwo, projectThree, about];
+      const hashSections = [intro, about, timeline, projectOne, projectTwo, projectThree];
       const hashString = hash.replace('#', '');
       const element = hashSections.filter(item => item.current.id === hashString)[0];
       if (!element) return;
@@ -122,10 +124,10 @@ export default function Home(props) {
   return (
     <Fragment>
       <Helmet>
-        <title>Cody Bennett | Designer + Developer</title>
+        <title>Lorenzo Chiana | Computer Engineer</title>
         <meta
           name="description"
-          content="Portfolio of Cody Bennett – a designer, full-stack developer, and creator of web & mobile solutions with a focus on motion and user experience."
+          content="Portfolio of Lorenzo Chiana"
         />
         <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
         <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />
@@ -135,6 +137,16 @@ export default function Home(props) {
         sectionRef={intro}
         disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
+      />
+      <Profile
+        sectionRef={about}
+        visible={visibleSections.includes(about.current)}
+        id="about"
+      />
+      <LifeTimeLine
+        id="timeline"
+        visible={visibleSections.includes(timeline.current)}
+        sectionRef={timeline}
       />
       <ProjectSummary
         id="project-1"
@@ -198,11 +210,6 @@ export default function Home(props) {
             },
           ],
         }}
-      />
-      <Profile
-        sectionRef={about}
-        visible={visibleSections.includes(about.current)}
-        id="about"
       />
       <Footer />
     </Fragment>

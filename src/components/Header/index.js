@@ -111,9 +111,11 @@ function Header(props) {
               </NavLink>
             ))}
             <HeaderIcons />
+            <ThemeToggle isMobile />
           </nav>
         )}
       </Transition>
+      {!isMobile && <ThemeToggle />}
     </header>
   );
 }

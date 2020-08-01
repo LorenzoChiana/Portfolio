@@ -1,6 +1,6 @@
 import React, { Suspense, lazy, useEffect, useState, Fragment } from 'react';
 import classNames from 'classnames';
-import { TransitionGroup, Transition } from 'react-transition-group';
+import { Transition } from 'react-transition-group';
 import DecoderText from 'components/DecoderText';
 import { useInterval, usePrevious, useWindowSize, useAppContext } from 'hooks';
 import { reflow } from 'utils/transition';
@@ -18,12 +18,7 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
   const [disciplineIndex, setDisciplineIndex] = useState(0);
   const windowSize = useWindowSize();
   const prevTheme = usePrevious(theme);
-  const introLabel = [disciplines.slice(0, -1).join(', '), disciplines.slice(-1)[0]].join(
-    ', and '
-  );
-  const currentDisciplines = disciplines.filter(
-    (item, index) => index === disciplineIndex
-  );
+  
   const titleId = `${id}-title`;
 
   useInterval(
@@ -70,10 +65,10 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                 className={classNames('intro__name', `intro__name--${status}`)}
                 id={titleId}
               >
-                <DecoderText text="Cody Bennett" start={!prerender} delay={300} />
+                <DecoderText text="Lorenzo Chiana" start={!prerender} delay={300} />
               </h1>
               <h2 className="intro__title">
-                <span className="intro__title-label">{`Designer + ${introLabel}`}</span>
+                <span className="intro__title-label">{`Computer Engineer`}</span>
                 <span
                   aria-hidden
                   className={classNames('intro__title-row', {
@@ -87,7 +82,7 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                     )}
                     style={{ '--delay': tokens.base.durationXS }}
                   >
-                    Designer
+                    Computer Engineer
                   </span>
                   <span
                     className={classNames(
@@ -96,35 +91,6 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                     )}
                   />
                 </span>
-                <TransitionGroup
-                  className={classNames('intro__title-row', {
-                    'intro__title-row--hidden': prerender,
-                  })}
-                  component="span"
-                >
-                  {currentDisciplines.map((item, index) => (
-                    <Transition
-                      appear
-                      timeout={{ enter: 3000, exit: 2000 }}
-                      key={item}
-                      onEnter={reflow}
-                    >
-                      {wordStatus => (
-                        <span
-                          aria-hidden
-                          className={classNames(
-                            'intro__title-word',
-                            'intro__title-word--plus',
-                            `intro__title-word--${wordStatus}`
-                          )}
-                          style={{ '--delay': tokens.base.durationL }}
-                        >
-                          {item}
-                        </span>
-                      )}
-                    </Transition>
-                  ))}
-                </TransitionGroup>
               </h2>
             </header>
             {windowSize.width > media.tablet && (
