@@ -58,7 +58,7 @@ function Header(props) {
       <Link
         className="header__logo"
         to={{ pathname: '/', hash: '#intro', state: hashKey }}
-        aria-label="Cody Bennett, Designer & Developer"
+        aria-label="Lorenzo Chiana, Computer Engineer"
         onClick={handleMobileNavClick}
         onMouseUp={blurOnMouseUp}
       >
@@ -111,11 +111,9 @@ function Header(props) {
               </NavLink>
             ))}
             <HeaderIcons />
-            <ThemeToggle isMobile />
           </nav>
         )}
       </Transition>
-      {!isMobile && <ThemeToggle />}
     </header>
   );
 }
