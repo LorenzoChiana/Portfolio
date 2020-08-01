@@ -61,7 +61,8 @@
             "exam6": "Web applications and services",
             "exam7": "Decision support systems",
             "exam8": "Business intelligence",
-            "exam9": "Internet routing and transportation"
+            "exam9": "Internet routing and transportation",
+            "exam10": "Concurrent and distributed programming"
         }
     },
     "work-tab": {
