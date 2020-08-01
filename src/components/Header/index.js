@@ -4,11 +4,10 @@ import { Transition } from 'react-transition-group';
 import Monogram from 'components/Monogram';
 import Icon from 'components/Icon';
 import NavToggle from './NavToggle';
-import ThemeToggle from './ThemeToggle';
-import { useWindowSize, useAppContext } from 'hooks';
+import { useAppContext } from 'hooks';
 import { navLinks, socialLinks } from './navData';
 import { reflow } from 'utils/transition';
-import { media, msToNum, numToMs } from 'utils/style';
+import { msToNum, numToMs } from 'utils/style';
 import { tokens } from 'app/theme';
 import { blurOnMouseUp } from 'utils/focus';
 import './index.css';
@@ -35,9 +34,8 @@ function Header(props) {
   const { menuOpen, dispatch } = useAppContext();
   const { location } = props;
   const [hashKey, setHashKey] = useState();
-  const windowSize = useWindowSize();
   const headerRef = useRef();
-  const isMobile = windowSize.width <= media.mobile || windowSize.height <= 696;
+  //const isMobile = windowSize.width <= media.mobile || windowSize.height <= 696;
 
   const handleNavClick = () => {
     setHashKey(Math.random().toString(32).substr(2, 8));
@@ -111,11 +109,9 @@ function Header(props) {
               </NavLink>
             ))}
             <HeaderIcons />
-            <ThemeToggle isMobile />
           </nav>
         )}
       </Transition>
-      {!isMobile && <ThemeToggle />}
     </header>
   );
 }

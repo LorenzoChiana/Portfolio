@@ -7,19 +7,26 @@ import Profile from './Profile';
 import LifeTimeLine from './LifeTimeLine';
 import Footer from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
-import modernTexture from 'assets/modern.jpg';
-import modernTextureLarge from 'assets/modern-large.jpg';
-import modernTexturePlaceholder from 'assets/modern-placeholder.jpg';
-import dttTexture from 'assets/dtt.jpg';
-import dttTextureLarge from 'assets/dtt-large.jpg';
-import dttTexturePlaceholder from 'assets/dtt-placeholder.jpg';
-import mystgangTexture from 'assets/mystgang.jpg';
-import mystgangTextureLarge from 'assets/mystgang-large.jpg';
-import mystgangTexturePlaceholder from 'assets/mystgang-placeholder.jpg';
+import bikeSharingTexture from 'assets/bikesharing.jpg';
+import bikeSharingTextureLarge from 'assets/bikesharing-large.jpg';
+import bikeSharingTexturePlaceholder from 'assets/bikesharing-placeholder.jpg';
+import lcmcTexture from 'assets/LCMC.jpg';
+import lcmcTextureLarge from 'assets/LCMC-large.jpg';
+import lcmcTexturePlaceholder from 'assets/LCMC-placeholder.jpg';
+import vakcinoTexture from 'assets/mystgang.jpg';
+import vakcinoTextureLarge from 'assets/mystgang-large.jpg';
+import vakcinoTexturePlaceholder from 'assets/mystgang-placeholder.jpg';
+import solTexture from 'assets/sol.jpg';
+import solTextureLarge from 'assets/sol-large.jpg';
+import solTexturePlaceholder from 'assets/sol-placeholder.jpg';
+import fileMinerTexture from 'assets/fileMiner.jpg';
+import fileMinerTextureLarge from 'assets/fileMiner-large.jpg';
+import fileMinerTexturePlaceholder from 'assets/fileMiner-placeholder.jpg';
+import orderAnalyticsTexture from 'assets/orderAnalytics.png';
+import orderAnalyticsTextureLarge from 'assets/orderAnalytics-large.png';
+import orderAnalyticsTexturePlaceholder from 'assets/orderAnalytics-placeholder.png';
 import iphone11 from 'assets/iphone-11.glb';
 import macbookPro from 'assets/macbook-pro.glb';
-
-const disciplines = ['Developer', 'Creator', 'Animator', 'Illustrator', 'Guitarist'];
 
 export default function Home(props) {
   const { status } = useRouteTransition();
@@ -30,13 +37,16 @@ export default function Home(props) {
   const intro = useRef();
   const about = useRef();
   const timeline = useRef();
-  const projectOne = useRef();
-  const projectTwo = useRef();
-  const projectThree = useRef();
+  const projectOrderAnalytics = useRef();
+  const projectLCMC = useRef();
+  const projectBikeSharing = useRef();
+  const projectVakcino = useRef();
+  const projectSOL = useRef();
+  const projectFileMiner = useRef();
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const revealSections = [intro, about, timeline, projectOne, projectTwo, projectThree];
+    const revealSections = [intro, about, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
 
     const sectionObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
@@ -73,7 +83,7 @@ export default function Home(props) {
 
     const handleHashchange = (hash, scroll) => {
       clearTimeout(scrollTimeout);
-      const hashSections = [intro, about, timeline, projectOne, projectTwo, projectThree];
+      const hashSections = [intro, about, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
       const hashString = hash.replace('#', '');
       const element = hashSections.filter(item => item.current.id === hashString)[0];
       if (!element) return;
@@ -135,7 +145,6 @@ export default function Home(props) {
       <Intro
         id="intro"
         sectionRef={intro}
-        disciplines={disciplines}
         scrollIndicatorHidden={scrollIndicatorHidden}
       />
       <Profile
@@ -150,63 +159,126 @@ export default function Home(props) {
       />
       <ProjectSummary
         id="project-1"
-        sectionRef={projectOne}
-        visible={visibleSections.includes(projectOne.current)}
-        index={1}
-        title="Putting Players First"
-        description="Building a community that puts players and game health first, not profits."
+        sectionRef={projectOrderAnalytics}
+        visible={visibleSections.includes(projectOrderAnalytics.current)}
+        index={2019}
+        title="Order Analytics"
+        description="Application that allows you to make a forecast on a historical series of orders based on a stochastic forecasting model."
         buttonText="View Project"
-        buttonTo="/projects/modern"
+        buttonLink="https://github.com/LorenzoChiana/DSS19"
         model={{
           type: 'laptop',
           alt: 'The Modern Project Landing Page',
           textures: [
             {
-              src: modernTexture,
-              srcSet: `${modernTexture} 800w, ${modernTextureLarge} 1440w`,
-              placeholder: modernTexturePlaceholder,
+              src: orderAnalyticsTexture,
+              srcSet: `${orderAnalyticsTexture} 800w, ${orderAnalyticsTextureLarge} 1440w`,
+              placeholder: orderAnalyticsTexturePlaceholder,
             },
           ],
         }}
       />
       <ProjectSummary
-        id="project-2"
-        sectionRef={projectTwo}
-        visible={visibleSections.includes(projectTwo.current)}
-        index={2}
-        title="A Tool for Everything"
-        description="Creating a platfrom to help developers build better software."
+        id="project-LCMC"
+        sectionRef={projectLCMC}
+        visible={visibleSections.includes(projectLCMC.current)}
+        index={2018}
+        title="Functional and Object Oriented Language Compiler"
+        description="Development of a compiler for the Functional and Object Oriented Language."
         buttonText="View Project"
-        buttonTo="/projects/dtt"
+        buttonLink="https://github.com/LorenzoChiana/LCMC1819"
         model={{
           type: 'laptop',
           alt: 'DevTech Tools Landing Page',
           textures: [
             {
-              src: dttTexture,
-              srcSet: `${dttTexture} 800w, ${dttTextureLarge} 1440w`,
-              placeholder: dttTexturePlaceholder,
+              src: lcmcTexture,
+              srcSet: `${lcmcTexture} 800w, ${lcmcTextureLarge} 1440w`,
+              placeholder: lcmcTexturePlaceholder,
             },
           ],
         }}
       />
       <ProjectSummary
-        id="project-3"
-        sectionRef={projectThree}
-        visible={visibleSections.includes(projectThree.current)}
-        index={3}
-        title="MystGang"
-        description="A personal site for a gaming content creator."
+        id="project-bikesharing"
+        sectionRef={projectBikeSharing}
+        visible={visibleSections.includes(projectBikeSharing.current)}
+        index={2017}
+        title="BikeSharing"
+        description="Website for the management of a hypothetical bike-sharing service. Developed on a MEAN stack."
         buttonText="View Project"
-        buttonTo="/projects/mystgang"
+        buttonLink="https://github.com/LorenzoChiana/BikeSharing"
         model={{
           type: 'laptop',
           alt: 'MystGang Website',
           textures: [
             {
-              src: mystgangTexture,
-              srcSet: `${mystgangTexture} 800w, ${mystgangTextureLarge} 1440w`,
-              placeholder: mystgangTexturePlaceholder,
+              src: bikeSharingTexture,
+              srcSet: `${bikeSharingTexture} 800w, ${bikeSharingTextureLarge} 1440w`,
+              placeholder: bikeSharingTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-vakcino"
+        sectionRef={projectVakcino}
+        visible={visibleSections.includes(projectVakcino.current)}
+        index={2016}
+        title="Vakcino"
+        description="Android application that allows the user to manage the vaccination record both for himself and for other family members."
+        buttonText="View Project"
+        buttonLink="https://github.com/LorenzoChiana/Vakcino"
+        model={{
+          type: 'laptop',
+          alt: 'MystGang Website',
+          textures: [
+            {
+              src: vakcinoTexture,
+              srcSet: `${vakcinoTexture} 800w, ${vakcinoTextureLarge} 1440w`,
+              placeholder: vakcinoTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-sol"
+        sectionRef={projectSOL}
+        visible={visibleSections.includes(projectSOL.current)}
+        index={2015}
+        title="SOL restyle"
+        description="Recreation of the home page of SOL platform (Studenti Online) of the University of Bologna to which was added the functionality of sharing notes and slides between students and professors."
+        buttonText="View Project"
+        buttonLink="https://github.com/LorenzoChiana/sol-project"
+        model={{
+          type: 'laptop',
+          alt: 'MystGang Website',
+          textures: [
+            {
+              src: solTexture,
+              srcSet: `${solTexture} 800w, ${solTextureLarge} 1440w`,
+              placeholder: solTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-fileMiner"
+        sectionRef={projectFileMiner}
+        visible={visibleSections.includes(projectFileMiner.current)}
+        index={2015}
+        title="FileMiner"
+        description="Creation of a file manager in Java with MVC pattern for the course of OOP (Object Oriented Programming)."
+        buttonText="View Project"
+        buttonLink="https://github.com/LorenzoChiana/FileMiner"
+        model={{
+          type: 'laptop',
+          alt: 'MystGang Website',
+          textures: [
+            {
+              src: fileMinerTexture,
+              srcSet: `${fileMinerTexture} 800w, ${fileMinerTextureLarge} 1440w`,
+              placeholder: fileMinerTexturePlaceholder,
             },
           ],
         }}

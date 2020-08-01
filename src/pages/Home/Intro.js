@@ -1,8 +1,8 @@
-import React, { Suspense, lazy, useEffect, useState, Fragment } from 'react';
+import React, { Suspense, lazy, Fragment } from 'react';
 import classNames from 'classnames';
 import { Transition } from 'react-transition-group';
 import DecoderText from 'components/DecoderText';
-import { useInterval, usePrevious, useWindowSize, useAppContext } from 'hooks';
+import { useWindowSize, useAppContext } from 'hooks';
 import { reflow } from 'utils/transition';
 import prerender from 'utils/prerender';
 import { media } from 'utils/style';
@@ -13,28 +13,11 @@ import './Intro.css';
 
 const DisplacementSphere = lazy(() => import('pages/Home/DisplacementSphere'));
 
-function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) {
+function Intro({ id, sectionRef, scrollIndicatorHidden, ...rest }) {
   const { theme } = useAppContext();
-  const [disciplineIndex, setDisciplineIndex] = useState(0);
   const windowSize = useWindowSize();
-  const prevTheme = usePrevious(theme);
   
   const titleId = `${id}-title`;
-
-  useInterval(
-    () => {
-      const index = (disciplineIndex + 1) % disciplines.length;
-      setDisciplineIndex(index);
-    },
-    5000,
-    theme.themeId
-  );
-
-  useEffect(() => {
-    if (prevTheme && prevTheme.themeId !== theme.themeId) {
-      setDisciplineIndex(0);
-    }
-  }, [theme.themeId, prevTheme]);
 
   return (
     <Section
