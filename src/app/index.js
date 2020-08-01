@@ -18,7 +18,6 @@ const Contact = lazy(() => import('pages/Contact'));
 const ProjectModern = lazy(() => import('pages/ProjectModern'));
 const ProjectDTT = lazy(() => import('pages/DevTechTools'));
 const ProjectMystGang = lazy(() => import('pages/MystGang'));
-// const Articles = lazy(() => import('pages/Articles'));
 const Page404 = lazy(() => import('pages/404'));
 
 export const AppContext = createContext();
@@ -41,7 +40,7 @@ export const fontStyles = `
 `;
 
 const App = () => {
-  const [storedTheme] = useLocalStorage('theme', 'dark');
+  const [storedTheme] = useLocalStorage('theme', 'light');
   const [state, dispatch] = useReducer(reducer, initialState);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -105,7 +104,6 @@ const AppRoutes = () => {
                     <Route path="/projects/modern" component={ProjectModern} />
                     <Route path="/projects/dtt" component={ProjectDTT} />
                     <Route path="/projects/mystgang" component={ProjectMystGang} />
-                    {/* <Route path="/articles" component={Articles} /> */}
                     <Route component={Page404} />
                   </Switch>
                 </Suspense>
@@ -148,7 +146,7 @@ export const globalStyles = `
   }
 
   .dark {
-    ${createThemeProperties(theme.dark)}
+    ${createThemeProperties(theme.light)}
   }
 
   .light {
