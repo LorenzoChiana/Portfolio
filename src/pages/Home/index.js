@@ -13,9 +13,9 @@ import bikeSharingTexturePlaceholder from 'assets/bikesharing-placeholder.jpg';
 import lcmcTexture from 'assets/LCMC.jpg';
 import lcmcTextureLarge from 'assets/LCMC-large.jpg';
 import lcmcTexturePlaceholder from 'assets/LCMC-placeholder.jpg';
-import vakcinoTexture from 'assets/mystgang.jpg';
-import vakcinoTextureLarge from 'assets/mystgang-large.jpg';
-import vakcinoTexturePlaceholder from 'assets/mystgang-placeholder.jpg';
+import vakcinoTexture from 'assets/vakcino-mobile.jpg';
+import vakcinoTextureLarge from 'assets/vakcino-mobile-large.jpg';
+import vakcinoTexturePlaceholder from 'assets/vakcino-mobile-placeholder.jpg';
 import solTexture from 'assets/sol.jpg';
 import solTextureLarge from 'assets/sol-large.jpg';
 import solTexturePlaceholder from 'assets/sol-placeholder.jpg';
@@ -224,7 +224,7 @@ export default function Home(props) {
         id="project-vakcino"
         sectionRef={projectVakcino}
         visible={visibleSections.includes(projectVakcino.current)}
-        index={2016}
+        index={2017}
         title="Vakcino"
         description="Android application that allows the user to manage the vaccination record both for himself and for other family members."
         buttonText="View Project"

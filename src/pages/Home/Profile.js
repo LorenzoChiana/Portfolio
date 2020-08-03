@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import classNames from 'classnames';
 import { Transition } from 'react-transition-group';
-import { Link } from 'components/Link';
 import Anchor from 'components/Anchor';
 import { Button } from 'components/Button';
 import DecoderText from 'components/DecoderText';
@@ -64,9 +63,9 @@ const Profile = ({ id, visible, sectionRef }) => {
               <Button
                 secondary
                 className={classNames('profile__button', `profile__button--${status}`)}
-                as={Link}
+                as="a"
                 status={status}
-                to="/contact"
+                href="mailto:lorenzo.chiana@gmail.com"
                 icon="send"
               >
                 Send me a message
