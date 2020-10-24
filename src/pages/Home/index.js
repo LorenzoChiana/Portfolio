@@ -5,6 +5,7 @@ import Intro from './Intro';
 import ProjectSummary from './ProjectSummary';
 import Profile from './Profile';
 import LifeTimeLine from './LifeTimeLine';
+import SkillsBar from './SkillsBar';
 import Footer from 'components/Footer';
 import { usePrefersReducedMotion, useRouteTransition } from 'hooks';
 import bikeSharingTexture from 'assets/bikesharing.jpg';
@@ -37,6 +38,7 @@ export default function Home(props) {
   const intro = useRef();
   const about = useRef();
   const timeline = useRef();
+  const skillsbar = useRef();
   const projectOrderAnalytics = useRef();
   const projectLCMC = useRef();
   const projectBikeSharing = useRef();
@@ -46,7 +48,7 @@ export default function Home(props) {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const revealSections = [intro, about, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
+    const revealSections = [intro, about, skillsbar, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
 
     const sectionObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
@@ -83,7 +85,7 @@ export default function Home(props) {
 
     const handleHashchange = (hash, scroll) => {
       clearTimeout(scrollTimeout);
-      const hashSections = [intro, about, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
+      const hashSections = [intro, about, skillsbar, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
       const hashString = hash.replace('#', '');
       const element = hashSections.filter(item => item.current.id === hashString)[0];
       if (!element) return;
@@ -152,10 +154,15 @@ export default function Home(props) {
         visible={visibleSections.includes(about.current)}
         id="about"
       />
+      <SkillsBar
+        id="skillsbar"
+        sectionRef={skillsbar}
+        visible={visibleSections.includes(skillsbar.current)}
+      />
       <LifeTimeLine
         id="timeline"
-        visible={visibleSections.includes(timeline.current)}
         sectionRef={timeline}
+        visible={visibleSections.includes(timeline.current)}
       />
       <ProjectSummary
         id="project-1"

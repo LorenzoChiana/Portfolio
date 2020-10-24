@@ -5,6 +5,11 @@ export const navLinks = [
     hash: '#about',
   },
   {
+    label: 'Skills',
+    pathname: '/',
+    hash: '#skillsbar',
+  },
+  {
     label: 'TimeLine',
     pathname: '/',
     hash: '#timeline',
@@ -13,11 +18,7 @@ export const navLinks = [
     label: 'Projects',
     pathname: '/',
     hash: '#project-1',
-  },
-  {
-    label: 'Contact',
-    pathname: '/contact',
-  },
+  }
 ];
 
 export const socialLinks = [
