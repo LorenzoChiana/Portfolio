@@ -42,6 +42,10 @@ const skills = [
       "level": 60
     },
     {
+      "type": "Shell",
+      "level": 90
+    },
+    {
       "type": "Git",
       "level": 90
     }

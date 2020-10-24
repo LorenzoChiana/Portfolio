@@ -14,7 +14,6 @@ import { reflow } from 'utils/transition';
 import './index.css';
 
 const Home = lazy(() => import('pages/Home'));
-const Contact = lazy(() => import('pages/Contact'));
 const Page404 = lazy(() => import('pages/404'));
 
 export const AppContext = createContext();
@@ -97,7 +96,6 @@ const AppRoutes = () => {
                 <Suspense fallback={<Fragment />}>
                   <Switch location={location}>
                     <Route exact path="/" component={Home} />
-                    <Route path="/contact" component={Contact} />
                     <Route component={Page404} />
                   </Switch>
                 </Suspense>
