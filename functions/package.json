@@ -1,6 +1,5 @@
 {
   "name": "functions",
-  "description": "Cloud Functions for codyb.co",
   "scripts": {
     "lint": "eslint .",
     "serve": "firebase serve --only functions",

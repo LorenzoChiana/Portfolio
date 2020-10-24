@@ -74,7 +74,7 @@ const AppRoutes = () => {
   return (
     <Fragment>
       <Helmet>
-        <link rel="canonical" href={`https://codyb.co${pathname}`} />
+        <link rel="canonical" href={`https://lorenzochiana.com${pathname}`} />
         <link rel="preload" href={GothamMedium} as="font" crossorigin="" />
         <link rel="preload" href={GothamBook} as="font" crossorigin="" />
         <style>{fontStyles}</style>
