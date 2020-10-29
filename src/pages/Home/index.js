@@ -42,6 +42,7 @@ export default function Home(props) {
   const about = useRef();
   const timeline = useRef();
   const skillsbar = useRef();
+  const projectPizzaTime = useRef();
   const projectOrderAnalytics = useRef();
   const projectLCMC = useRef();
   const projectBikeSharing = useRef();
@@ -51,7 +52,7 @@ export default function Home(props) {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const revealSections = [intro, about, skillsbar, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
+    const revealSections = [intro, about, skillsbar, timeline, projectPizzaTime, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
 
     const sectionObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
@@ -88,7 +89,7 @@ export default function Home(props) {
 
     const handleHashchange = (hash, scroll) => {
       clearTimeout(scrollTimeout);
-      const hashSections = [intro, about, skillsbar, timeline, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
+      const hashSections = [intro, about, skillsbar, timeline, projectPizzaTime, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
       const hashString = hash.replace('#', '');
       const element = hashSections.filter(item => item.current.id === hashString)[0];
       if (!element) return;
@@ -169,8 +170,8 @@ export default function Home(props) {
       />
       <ProjectSummary
         id="project-1"
-        sectionRef={projectOrderAnalytics}
-        visible={visibleSections.includes(projectOrderAnalytics.current)}
+        sectionRef={projectPizzaTime}
+        visible={visibleSections.includes(projectPizzaTime.current)}
         index={2020}
         title="PizzaTime"
         description="A Battle Arena game with 2D fixed perspective graphics, written in Scala for educational purpose."
