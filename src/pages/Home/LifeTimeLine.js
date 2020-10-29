@@ -133,6 +133,7 @@ const LifeTimeLine = ({id, visible, sectionRef}) => {
                                     <li>Languages, compilers and computational models</li>
                                     <li>Machine learning</li>
                                     <li>Network security</li>
+                                    <li>Programming and Development Paradigms</li>
                                     <li>Web applications and services</li>
                                 </ul>
                             </VerticalTimelineElement>

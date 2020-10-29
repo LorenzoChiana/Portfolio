@@ -26,6 +26,9 @@ import fileMinerTexturePlaceholder from 'assets/fileMiner-placeholder.jpg';
 import orderAnalyticsTexture from 'assets/orderAnalytics.png';
 import orderAnalyticsTextureLarge from 'assets/orderAnalytics-large.png';
 import orderAnalyticsTexturePlaceholder from 'assets/orderAnalytics-placeholder.png';
+import pizzaTimeTexture from 'assets/pizzaTime.PNG';
+import pizzaTimeTextureLarge from 'assets/pizzaTime-large.png';
+import pizzaTimeTexturePlaceholder from 'assets/pizzaTime-placeholder.png';
 import iphone11 from 'assets/iphone-11.glb';
 import macbookPro from 'assets/macbook-pro.glb';
 
@@ -166,6 +169,27 @@ export default function Home(props) {
       />
       <ProjectSummary
         id="project-1"
+        sectionRef={projectOrderAnalytics}
+        visible={visibleSections.includes(projectOrderAnalytics.current)}
+        index={2020}
+        title="PizzaTime"
+        description="A Battle Arena game with 2D fixed perspective graphics, written in Scala for educational purpose."
+        buttonText="View Project"
+        buttonLink="https://github.com/LorenzoChiana/PPS-18-pizzatime"
+        model={{
+          type: 'laptop',
+          alt: 'The Modern Project Landing Page',
+          textures: [
+            {
+              src: pizzaTimeTexture,
+              srcSet: `${pizzaTimeTexture} 800w, ${pizzaTimeTextureLarge} 1440w`,
+              placeholder: pizzaTimeTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-DSS"
         sectionRef={projectOrderAnalytics}
         visible={visibleSections.includes(projectOrderAnalytics.current)}
         index={2019}
