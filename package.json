@@ -33,6 +33,7 @@
     "react-dom": "^16.13.1",
     "react-helmet-async": "^1.0.6",
     "react-router-dom": "5.2.0",
+    "react-scroll-up-button": "^1.6.4",
     "react-skillbars": "^1.6.1",
     "react-transition-group": "^4.4.1",
     "react-vertical-timeline-component": "^3.0.2",

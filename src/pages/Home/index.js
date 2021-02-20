@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef, Fragment } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import { CircleArrow as ScrollUpButton } from "react-scroll-up-button";
 import Intro from './Intro';
 import ProjectSummary from './ProjectSummary';
 import Profile from './Profile';
@@ -279,7 +280,7 @@ export default function Home(props) {
         visible={visibleSections.includes(projectSOL.current)}
         index={2015}
         title="SOL restyle"
-        description="Recreation of the home page of SOL platform (Studenti Online) of the University of Bologna to which was added the functionality of sharing notes and slides between students and professors."
+        description="Homepage remake for University of Bologna's Students Platform to which was added the functionality of sharing notes and slides between students and professors."
         buttonText="View Project"
         buttonLink="https://github.com/LorenzoChiana/sol-project"
         model={{
@@ -316,6 +317,7 @@ export default function Home(props) {
         }}
       />
       <Footer />
+      <ScrollUpButton />
     </Fragment>
   );
 }

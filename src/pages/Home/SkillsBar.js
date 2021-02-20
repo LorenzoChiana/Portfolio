@@ -55,10 +55,7 @@ const colors = {
     "bar": {
       "hue": 186,
       "saturation": 90,
-      "level": {
-        "minimum": 80,
-        "maximum": 100
-      }
+      "level": 70
     },
     "title": {
         "background": 'rgba(0, 0, 0, 0.6)'

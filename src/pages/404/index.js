@@ -6,7 +6,7 @@ import { Button } from 'components/Button';
 import { Link } from 'components/Link';
 import DecoderText from 'components/DecoderText';
 import { reflow } from 'utils/transition';
-import notFound from 'assets/notfound.mp4';
+import notFound from 'assets/static-screen1.mp4';
 import notFoundPoster from 'assets/notfound.jpg';
 import './index.css';
 
@@ -70,14 +70,6 @@ function NotFound() {
               >
                 <source src={notFound} type="video/mp4" />
               </video>
-              <a
-                className={classNames('page-404__credit', `page-404__credit--${status}`)}
-                href="https://twitter.com/ruinergame"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Animation from Ruiner
-              </a>
             </div>
           </Fragment>
         )}

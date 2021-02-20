@@ -20,21 +20,21 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__title', `profile__title--${status}`)}
       id={titleId}
     >
-      <DecoderText text="Hi" start={status !== 'exited'} delay={500} />
+      <DecoderText text="Hello" start={status !== 'exited'} delay={500} />
     </h2>
     <p className={classNames('profile__description', `profile__description--${status}`)}>
-    My name is Lorenzo, I was born in 1995 and currently I'm based in Cesena, Italy.
+    My name is Lorenzo, I was born in 1995 and I'm currently based in Cesena, Italy.
     I graduated from the bachelor of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) at the University of Bologna with a {' '}
       <Anchor href="https://amslaurea.unibo.it/15611/1/chiana_lorenzo_tesi.pdf" target="_blank">
         thesis
       </Anchor>
-    on hospital 4.0.
-    During my university career, I developed several projects (here is my {' '}
-      <Anchor href="https://github.com/LorenzoChiana" target="_blank">
-        GitHub repository
+      {' '} on hospital 4.0.
+    During my university career, I developed several projects (my {' '}
+        <Anchor href="https://github.com/LorenzoChiana" target="_blank">
+        GitHub
       </Anchor>
     ) ranging from web development to programming of embedded systems and IoT.
-    I am currently continuing my studies and I am attending the course of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here is my {' '}
+    I am currently continuing my studies and attending the course of "Ingegneria e Scienze Informatiche" (Engineering and Computer Science) also at the University of Bologna, specializing in data science. If you are interested in finding out more about me here is my {' '}
       <Anchor href="/doc/CV_ChianaLorenzo_en.pdf" target="_blank">
         Curriculum Vitae
       </Anchor>

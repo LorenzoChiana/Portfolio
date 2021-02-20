@@ -1,7 +1,6 @@
 import React, { useRef, useState, memo } from 'react';
-import { NavLink, Link } from 'components/Link';
+import { NavLink } from 'components/Link';
 import { Transition } from 'react-transition-group';
-import Monogram from 'components/Monogram';
 import Icon from 'components/Icon';
 import NavToggle from './NavToggle';
 import { useAppContext } from 'hooks';
@@ -53,15 +52,6 @@ function Header(props) {
 
   return (
     <header className="header" ref={headerRef}>
-      <Link
-        className="header__logo"
-        to={{ pathname: '/', hash: '#intro', state: hashKey }}
-        aria-label="Lorenzo Chiana, Computer Engineer"
-        onClick={handleMobileNavClick}
-        onMouseUp={blurOnMouseUp}
-      >
-        <Monogram highlight />
-      </Link>
       <NavToggle onClick={() => dispatch({ type: 'toggleMenu' })} menuOpen={menuOpen} />
       <nav className="header__nav">
         <div className="header__nav-list">

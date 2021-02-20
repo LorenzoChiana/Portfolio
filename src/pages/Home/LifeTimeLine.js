@@ -5,7 +5,6 @@ import classNames from 'classnames';
 import DecoderText from 'components/DecoderText';
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
-import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import Section from 'components/Section';
 import { Transition } from 'react-transition-group';
 import { reflow } from 'utils/transition';
@@ -118,12 +117,13 @@ const LifeTimeLine = ({id, visible, sectionRef}) => {
                                 <h3 className="vertical-timeline-element-title">Student at UNIBO</h3>
                                 <h4 className="vertical-timeline-element-subtitle">University of Bologna</h4>
                                 <p>
-                                Currently, I'm studying computer science at the master's degree course in UNIBO
+                                I'm currently studying computer science at the Master's degree course in UNIBO
                                 </p>
                                 <p>
                                 Educational activity: 
                                 </p>
                                 <ul>
+                                    <li>Big data</li>
                                     <li>Business intelligence</li>
                                     <li>Concurrent and distributed programming</li>
                                     <li>Decision support systems</li>
@@ -134,13 +134,11 @@ const LifeTimeLine = ({id, visible, sectionRef}) => {
                                     <li>Machine learning</li>
                                     <li>Network security</li>
                                     <li>Programming and Development Paradigms</li>
+                                    <li>Project management</li>
+                                    <li>Semantic web</li>
                                     <li>Web applications and services</li>
                                 </ul>
                             </VerticalTimelineElement>
-                            <VerticalTimelineElement
-                                iconStyle={{ background: 'rgb(0, 229, 255)', color: '#fff' }}
-                                icon={<EmojiPeopleIcon />}
-                            />
                         </VerticalTimeline>                        
                     </div>
                 )}

@@ -15,7 +15,7 @@ export const navLinks = [
     hash: '#timeline',
   },
   {
-    label: 'Projects',
+    label: 'Portfolio',
     pathname: '/',
     hash: '#project-1',
   }
