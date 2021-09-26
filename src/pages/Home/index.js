@@ -30,6 +30,12 @@ import orderAnalyticsTexturePlaceholder from 'assets/orderAnalytics-placeholder.
 import pizzaTimeTexture from 'assets/pizzaTime.PNG';
 import pizzaTimeTextureLarge from 'assets/pizzaTime-large.png';
 import pizzaTimeTexturePlaceholder from 'assets/pizzaTime-placeholder.png';
+import semanticWebTexture from 'assets/semanticWeb.png';
+import semanticWebTextureLarge from 'assets/semanticWeb-large.png';
+import semanticWebTexturePlaceholder from 'assets/semanticWeb-placeholder.png';
+import ytTexture from 'assets/yt.png';
+import ytTextureLarge from 'assets/yt-large.png';
+import ytTexturePlaceholder from 'assets/yt-placeholder.png';
 import iphone11 from 'assets/iphone-11.glb';
 import macbookPro from 'assets/macbook-pro.glb';
 
@@ -43,6 +49,8 @@ export default function Home(props) {
   const about = useRef();
   const timeline = useRef();
   const skillsbar = useRef();
+  const projectBigData = useRef();
+  const projectSemanticWeb = useRef();
   const projectPizzaTime = useRef();
   const projectOrderAnalytics = useRef();
   const projectLCMC = useRef();
@@ -53,7 +61,7 @@ export default function Home(props) {
   const prefersReducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
-    const revealSections = [intro, about, skillsbar, timeline, projectPizzaTime, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
+    const revealSections = [intro, about, skillsbar, timeline, projectBigData, projectSemanticWeb, projectPizzaTime, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
 
     const sectionObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
@@ -90,7 +98,7 @@ export default function Home(props) {
 
     const handleHashchange = (hash, scroll) => {
       clearTimeout(scrollTimeout);
-      const hashSections = [intro, about, skillsbar, timeline, projectPizzaTime, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
+      const hashSections = [intro, about, skillsbar, timeline, projectBigData, projectSemanticWeb, projectPizzaTime, projectOrderAnalytics, projectLCMC, projectBikeSharing, projectVakcino, projectSOL, projectFileMiner];
       const hashString = hash.replace('#', '');
       const element = hashSections.filter(item => item.current.id === hashString)[0];
       if (!element) return;
@@ -171,6 +179,48 @@ export default function Home(props) {
       />
       <ProjectSummary
         id="project-1"
+        sectionRef={projectBigData}
+        visible={visibleSections.includes(projectBigData.current)}
+        index={2021}
+        title="YouTube Analytics"
+        description="Definition and implementation of a Job through Hadoop MapReduce and Spark runned on a dataset related to YouTube trending videos from different countries."
+        buttonText="View Project"
+        buttonLink="https://github.com/LorenzoChiana/BigDataProject1920"
+        model={{
+          type: 'laptop',
+          alt: 'The Modern Project Landing Page',
+          textures: [
+            {
+              src: ytTexture,
+              srcSet: `${ytTexture} 800w, ${ytTextureLarge} 1440w`,
+              placeholder: ytTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-semanticWeb"
+        sectionRef={projectSemanticWeb}
+        visible={visibleSections.includes(projectSemanticWeb.current)}
+        index={2020}
+        title="SemanticWeb"
+        description="Creation of a simulation in Java through the OWL API to study, and test the ADAS ontologies provided by Ichise Laboratory"
+        buttonText="View Project"
+        buttonLink="https://github.com/LorenzoChiana/SemanticWeb2020"
+        model={{
+          type: 'laptop',
+          alt: 'The Modern Project Landing Page',
+          textures: [
+            {
+              src: semanticWebTexture,
+              srcSet: `${semanticWebTexture} 800w, ${semanticWebTextureLarge} 1440w`,
+              placeholder: semanticWebTexturePlaceholder,
+            },
+          ],
+        }}
+      />
+      <ProjectSummary
+        id="project-pizza"
         sectionRef={projectPizzaTime}
         visible={visibleSections.includes(projectPizzaTime.current)}
         index={2020}
