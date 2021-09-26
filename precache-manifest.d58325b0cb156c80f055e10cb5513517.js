@@ -1,26 +1,26 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2d9072c0b53cea610f65210c0cc58bb",
+    "revision": "0da8ac7426cf57c9d0d239aef70fb908",
     "url": "/index.html"
   },
   {
-    "revision": "32c9d474eec82b6432b4",
+    "revision": "a3e6b6dba0a968fb1135",
     "url": "/static/css/3.9e7128f5.chunk.css"
   },
   {
-    "revision": "25d7c919087e0c8f1004",
+    "revision": "38d492d28c011e4a23b0",
     "url": "/static/css/5.ac1ab58b.chunk.css"
   },
   {
-    "revision": "5f9d3e88d128620cb5ea",
+    "revision": "59f207c8bd73fca26f50",
     "url": "/static/css/6.8ab0462d.chunk.css"
   },
   {
-    "revision": "143efdbb1a3dabb63fe5",
+    "revision": "7dfe0497ba877f2cb7d8",
     "url": "/static/css/7.97119998.chunk.css"
   },
   {
-    "revision": "bc743ecbdd6a385d05c2",
+    "revision": "795298116171d4af4e88",
     "url": "/static/css/main.833bc010.chunk.css"
   },
   {
@@ -32,40 +32,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/0.072cc542.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32c9d474eec82b6432b4",
-    "url": "/static/js/3.75a39b80.chunk.js"
+    "revision": "a3e6b6dba0a968fb1135",
+    "url": "/static/js/3.30a28fd1.chunk.js"
   },
   {
-    "revision": "952b59cc272fa8a67608",
-    "url": "/static/js/4.b0d0dd63.chunk.js"
+    "revision": "38a7a588d3a4dabb4a3e",
+    "url": "/static/js/4.4f51f179.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/4.b0d0dd63.chunk.js.LICENSE.txt"
+    "url": "/static/js/4.4f51f179.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25d7c919087e0c8f1004",
-    "url": "/static/js/5.b9e35b9f.chunk.js"
+    "revision": "38d492d28c011e4a23b0",
+    "url": "/static/js/5.96bb994d.chunk.js"
   },
   {
     "revision": "3d2d88b7877918a326634499feeab80c",
-    "url": "/static/js/5.b9e35b9f.chunk.js.LICENSE.txt"
+    "url": "/static/js/5.96bb994d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f9d3e88d128620cb5ea",
-    "url": "/static/js/6.ddc87493.chunk.js"
+    "revision": "59f207c8bd73fca26f50",
+    "url": "/static/js/6.2025e1c4.chunk.js"
   },
   {
-    "revision": "143efdbb1a3dabb63fe5",
-    "url": "/static/js/7.1bad6f21.chunk.js"
+    "revision": "7dfe0497ba877f2cb7d8",
+    "url": "/static/js/7.66c20427.chunk.js"
   },
   {
-    "revision": "bc743ecbdd6a385d05c2",
-    "url": "/static/js/main.2638e06e.chunk.js"
+    "revision": "795298116171d4af4e88",
+    "url": "/static/js/main.01cf5c46.chunk.js"
   },
   {
-    "revision": "f47c5a6178e48be0e0ac",
-    "url": "/static/js/runtime-main.48e7cd9e.js"
+    "revision": "cd5293b8a090566c565c",
+    "url": "/static/js/runtime-main.18471e43.js"
   },
   {
     "revision": "e621f634a101737dd71d84290c1893c8",
@@ -112,6 +112,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/email.3f594fce.svg"
   },
   {
+    "revision": "a94241a9d4b38b61126729a913ccd364",
+    "url": "/static/media/en.a94241a9.svg"
+  },
+  {
     "revision": "f0b67b15a7ea87b73aa70c37961be10e",
     "url": "/static/media/error.f0b67b15.svg"
   },
@@ -146,6 +150,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d09a62f12d844899c4c23800aa067505",
     "url": "/static/media/iphone-11.d09a62f1.glb"
+  },
+  {
+    "revision": "db5a75a2e1dd3330c9b569dbde39f57a",
+    "url": "/static/media/it.db5a75a2.svg"
   },
   {
     "revision": "f0da4ba56ffabe2c15eb8a9ecf532a8f",
@@ -204,6 +212,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/profile.6ed6c5c7.png"
   },
   {
+    "revision": "4b72dd643ec40e99e8ca44eb5bda057d",
+    "url": "/static/media/semanticWeb-large.4b72dd64.png"
+  },
+  {
+    "revision": "bbe43d50cabf5b5e11678da7aac58698",
+    "url": "/static/media/semanticWeb-placeholder.bbe43d50.png"
+  },
+  {
+    "revision": "5c1fc9cf662e84b86f2d0eb08e8ea3e0",
+    "url": "/static/media/semanticWeb.5c1fc9cf.png"
+  },
+  {
     "revision": "f54402bc06ff99dad1885a871202800f",
     "url": "/static/media/send.f54402bc.svg"
   },
@@ -238,5 +258,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3695d0ea0b7350eba136d635d8d3c41f",
     "url": "/static/media/vakcino-mobile.3695d0ea.jpg"
+  },
+  {
+    "revision": "67a9aa946a7934181719e3c06260adab",
+    "url": "/static/media/yt-large.67a9aa94.png"
+  },
+  {
+    "revision": "9ae1190493a37a08cf0e725c8db34b02",
+    "url": "/static/media/yt-placeholder.9ae11904.png"
+  },
+  {
+    "revision": "7f5e464154356575c7e02c9ac84d4222",
+    "url": "/static/media/yt.7f5e4641.png"
   }
 ]);
